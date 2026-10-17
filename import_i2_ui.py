@@ -64,16 +64,22 @@ def import_translations(translation_source='ui_terms.json'):
             break
             
     print(f"Patched {patched_count} terms into LanguageSourceData.")
-    
+
     # Save back to __data
     print(f"Saving modified bundle to {I2_BUNDLE_PATH}...")
-    saved_bytes = env.file.save()
+    saved_bytes = env.file.save(packer='lz4')
     with open(I2_BUNDLE_PATH, 'wb') as f:
         f.write(saved_bytes)
         
     print(f"SUCCESS! Repacked AssetBundle saved ({len(saved_bytes)} bytes).")
 
+    # Also sync to apk_builder assets
+    apk_mod_path = r'apk_builder/assets/mod/__data'
+    os.makedirs(os.path.dirname(apk_mod_path), exist_ok=True)
+    shutil.copy2(I2_BUNDLE_PATH, apk_mod_path)
+    print(f"Synced mod data to {apk_mod_path}")
+
 if __name__ == '__main__':
     import sys
-    src = sys.argv[1] if len(sys.argv) > 1 else 'ui_terms.json'
+    src = sys.argv[1] if len(sys.argv) > 1 else 'ui_terms_font_safe.json'
     import_translations(src)
