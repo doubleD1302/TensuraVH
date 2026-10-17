@@ -13,6 +13,7 @@ import android.os.Looper;
 import android.os.ParcelFileDescriptor;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -55,6 +56,7 @@ public class MainActivity extends Activity {
     private TextView tvGameStatus;
     private TextView tvPatchVersion;
     private TextView tvLog;
+    private ScrollView scrollLog;
     private Button btnReqShizuku;
     private Button btnInstallPatch;
     private Button btnRestore;
@@ -87,6 +89,7 @@ public class MainActivity extends Activity {
         tvGameStatus = findViewById(R.id.tv_game_status);
         tvPatchVersion = findViewById(R.id.tv_patch_version);
         tvLog = findViewById(R.id.tv_log);
+        scrollLog = findViewById(R.id.scroll_log);
         btnReqShizuku = findViewById(R.id.btn_req_shizuku);
         btnInstallPatch = findViewById(R.id.btn_install_patch);
         btnRestore = findViewById(R.id.btn_restore);
@@ -109,7 +112,7 @@ public class MainActivity extends Activity {
         checkShizukuStatus();
 
         // Silent check for updates on startup
-        executor.execute(() -> checkUpdate(false));
+        checkUpdate(false);
     }
 
     @Override
@@ -485,85 +488,87 @@ public class MainActivity extends Activity {
     // Auto-update checker
     private void checkUpdate(boolean manual) {
         if (manual) appendLog("🔍 Đang kiểm tra bản cập nhật mới từ GitHub...");
-        try {
-            String tagName = "";
-            String body = "";
-            String apkUrl = "";
-
-            // 1. Try GitHub Releases API
+        executor.execute(() -> {
             try {
-                URL url = new URL(GITHUB_API_LATEST);
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("GET");
-                conn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
-                conn.setConnectTimeout(6000);
-                conn.setReadTimeout(6000);
+                String tagName = "";
+                String body = "";
+                String apkUrl = "";
 
-                if (conn.getResponseCode() == 200) {
-                    BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                    StringBuilder sb = new StringBuilder();
-                    String l;
-                    while ((l = br.readLine()) != null) sb.append(l);
-                    br.close();
-
-                    JSONObject json = new JSONObject(sb.toString());
-                    tagName = json.optString("tag_name", "");
-                    body = json.optString("body", "Bản cập nhật mới nhất từ GitHub Releases.");
-                    JSONArray assets = json.optJSONArray("assets");
-                    if (assets != null) {
-                        for (int i = 0; i < assets.length(); i++) {
-                            JSONObject a = assets.getJSONObject(i);
-                            String name = a.optString("name", "");
-                            if (name.endsWith(".apk")) {
-                                apkUrl = a.optString("browser_download_url", "");
-                                break;
-                            }
-                        }
-                    }
-                }
-            } catch (Exception ignored) {}
-
-            // 2. Fallback to raw version.json from main branch
-            if (apkUrl.isEmpty()) {
+                // 1. Try GitHub Releases API
                 try {
-                    URL rawUrl = new URL(RAW_VERSION_URL);
-                    HttpURLConnection rawConn = (HttpURLConnection) rawUrl.openConnection();
-                    rawConn.setRequestMethod("GET");
-                    rawConn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
-                    rawConn.setConnectTimeout(6000);
-                    rawConn.setReadTimeout(6000);
+                    URL url = new URL(GITHUB_API_LATEST);
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    conn.setRequestMethod("GET");
+                    conn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
+                    conn.setConnectTimeout(6000);
+                    conn.setReadTimeout(6000);
 
-                    if (rawConn.getResponseCode() == 200) {
-                        BufferedReader br = new BufferedReader(new InputStreamReader(rawConn.getInputStream()));
+                    if (conn.getResponseCode() == 200) {
+                        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                         StringBuilder sb = new StringBuilder();
                         String l;
                         while ((l = br.readLine()) != null) sb.append(l);
                         br.close();
 
                         JSONObject json = new JSONObject(sb.toString());
-                        tagName = json.optString("version", "");
-                        body = json.optString("notes", "Cập nhật bản vá Tiếng Việt mới.");
-                        apkUrl = json.optString("downloadUrl", "");
+                        tagName = json.optString("tag_name", "");
+                        body = json.optString("body", "Bản cập nhật mới nhất từ GitHub Releases.");
+                        JSONArray assets = json.optJSONArray("assets");
+                        if (assets != null) {
+                            for (int i = 0; i < assets.length(); i++) {
+                                JSONObject a = assets.getJSONObject(i);
+                                String name = a.optString("name", "");
+                                if (name.endsWith(".apk")) {
+                                    apkUrl = a.optString("browser_download_url", "");
+                                    break;
+                                }
+                            }
+                        }
                     }
                 } catch (Exception ignored) {}
-            }
 
-            if (!tagName.isEmpty() && isNewerVersion(tagName, APP_VERSION) && !apkUrl.isEmpty()) {
-                final String finalTag = tagName;
-                final String finalApk = apkUrl;
-                final String finalBody = body;
-                mainHandler.post(() -> showUpdateDialog(finalTag, finalBody, finalApk));
-            } else if (!tagName.isEmpty()) {
-                if (manual) {
-                    appendLog("✅ Bạn đang sử dụng phiên bản mới nhất (" + APP_VERSION + ").");
-                    mainHandler.post(() -> Toast.makeText(MainActivity.this, "Bạn đang dùng phiên bản mới nhất!", Toast.LENGTH_SHORT).show());
+                // 2. Fallback to raw version.json from main branch
+                if (apkUrl.isEmpty()) {
+                    try {
+                        URL rawUrl = new URL(RAW_VERSION_URL);
+                        HttpURLConnection rawConn = (HttpURLConnection) rawUrl.openConnection();
+                        rawConn.setRequestMethod("GET");
+                        rawConn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
+                        rawConn.setConnectTimeout(6000);
+                        rawConn.setReadTimeout(6000);
+
+                        if (rawConn.getResponseCode() == 200) {
+                            BufferedReader br = new BufferedReader(new InputStreamReader(rawConn.getInputStream()));
+                            StringBuilder sb = new StringBuilder();
+                            String l;
+                            while ((l = br.readLine()) != null) sb.append(l);
+                            br.close();
+
+                            JSONObject json = new JSONObject(sb.toString());
+                            tagName = json.optString("version", "");
+                            body = json.optString("notes", "Cập nhật bản vá Tiếng Việt mới.");
+                            apkUrl = json.optString("downloadUrl", "");
+                        }
+                    } catch (Exception ignored) {}
                 }
-            } else if (manual) {
-                appendLog("⚠️ Chưa thể kết nối máy chủ cập nhật (GitHub). Vui lòng thử lại sau.");
+
+                if (!tagName.isEmpty() && isNewerVersion(tagName, APP_VERSION) && !apkUrl.isEmpty()) {
+                    final String finalTag = tagName;
+                    final String finalApk = apkUrl;
+                    final String finalBody = body;
+                    mainHandler.post(() -> showUpdateDialog(finalTag, finalBody, finalApk));
+                } else if (!tagName.isEmpty()) {
+                    if (manual) {
+                        appendLog("✅ Bạn đang sử dụng phiên bản mới nhất (" + APP_VERSION + ").");
+                        mainHandler.post(() -> Toast.makeText(MainActivity.this, "Bạn đang dùng phiên bản mới nhất!", Toast.LENGTH_SHORT).show());
+                    }
+                } else if (manual) {
+                    appendLog("⚠️ Chưa thể kết nối máy chủ cập nhật (GitHub). Vui lòng thử lại sau.");
+                }
+            } catch (Exception e) {
+                if (manual) appendLog("⚠️ Lỗi kiểm tra cập nhật: " + e.getMessage());
             }
-        } catch (Exception e) {
-            if (manual) appendLog("⚠️ Lỗi kiểm tra cập nhật: " + e.getMessage());
-        }
+        });
     }
 
     private boolean isNewerVersion(String remote, String current) {
@@ -675,6 +680,9 @@ public class MainActivity extends Activity {
             String time = timeFormat.format(new Date());
             String current = tvLog.getText().toString();
             tvLog.setText(current + "\n[" + time + "] " + message);
+            if (scrollLog != null) {
+                scrollLog.post(() -> scrollLog.fullScroll(View.FOCUS_DOWN));
+            }
         });
     }
 }

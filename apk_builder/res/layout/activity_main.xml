@@ -236,17 +236,23 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
-            <TextView
-                android:id="@+id/tv_log"
+            <ScrollView
+                android:id="@+id/scroll_log"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="@color/log_bg"
-                android:padding="12dp"
-                android:textColor="#A0AEC0"
-                android:textSize="12sp"
-                android:typeface="monospace"
-                android:scrollbars="vertical"
-                android:text="@string/log_ready" />
+                android:scrollbars="vertical">
+
+                <TextView
+                    android:id="@+id/tv_log"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:textColor="#A0AEC0"
+                    android:textSize="12sp"
+                    android:typeface="monospace"
+                    android:text="@string/log_ready" />
+            </ScrollView>
         </LinearLayout>
 
         <!-- Footer / Repository Info -->
