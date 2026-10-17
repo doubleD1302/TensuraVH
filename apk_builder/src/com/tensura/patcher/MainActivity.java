@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
     public static final String APP_VERSION = "v1.0.0";
     public static final String GITHUB_REPO = "doubleD1302/TensuraVH";
     public static final String GITHUB_API_LATEST = "https://api.github.com/repos/" + GITHUB_REPO + "/releases/latest";
+    public static final String RAW_VERSION_URL = "https://raw.githubusercontent.com/" + GITHUB_REPO + "/main/version.json";
 
     private static final String GAME_PACKAGE = "com.bandainamcoent.tensuramrkww";
     private static final String I2_PARENT_DIR = "/storage/emulated/0/Android/data/com.bandainamcoent.tensuramrkww/files/UnityCache/Shared/baad181fc8596596149644262d31f2a6";
@@ -315,6 +316,7 @@ public class MainActivity extends Activity {
                 OutputStream os = process.getOutputStream();
 
                 String cmd = 
+                    "exec 2>&1\n" +
                     "am force-stop " + GAME_PACKAGE + "\n" +
                     "SRC='" + stagingFile.getAbsolutePath() + "'\n" +
                     "[ ! -s \"$SRC\" ] && SRC='" + dlPath + "'\n" +
@@ -328,17 +330,16 @@ public class MainActivity extends Activity {
                     "BASE_DIR='" + I2_PARENT_DIR + "'\n" +
                     "[ ! -d \"$BASE_DIR\" ] && BASE_DIR='" + I2_ALT_PARENT_DIR + "'\n" +
                     "mkdir -p \"$BASE_DIR/" + DEFAULT_HASH + "\"\n" +
-                    "chmod 777 \"$BASE_DIR\"\n" +
                     "NOW=$(date +%s)\n" +
                     "PATCH_COUNT=0\n" +
                     "for SUB in \"$BASE_DIR\"/*; do\n" +
                     "  if [ -d \"$SUB\" ]; then\n" +
-                    "    [ ! -f \"$SUB/__data.bak\" ] && [ -f \"$SUB/__data\" ] && cp \"$SUB/__data\" \"$SUB/__data.bak\"\n" +
+                    "    [ ! -f \"$SUB/__data.bak\" ] && [ -f \"$SUB/__data\" ] && cp -f \"$SUB/__data\" \"$SUB/__data.bak\" 2>/dev/null || true\n" +
                     "    cp -f \"$SRC\" \"$SUB/__data\"\n" +
-                    "    printf -- '-1\\n%%s\\n1\\n__data\\n' \"$NOW\" > \"$SUB/__info\"\n" +
-                    "    chmod 666 \"$SUB/__data\"\n" +
-                    "    chmod 666 \"$SUB/__info\"\n" +
-                    "    chmod 777 \"$SUB\"\n" +
+                    "    printf '%s\\n' '-1' \"$NOW\" '1' '__data' > \"$SUB/__info\"\n" +
+                    "    chmod 666 \"$SUB/__data\" 2>/dev/null || true\n" +
+                    "    chmod 666 \"$SUB/__info\" 2>/dev/null || true\n" +
+                    "    chmod 777 \"$SUB\" 2>/dev/null || true\n" +
                     "    DST_SIZE=$(wc -c < \"$SUB/__data\" | tr -d ' ')\n" +
                     "    if [ \"$SRC_SIZE\" = \"$DST_SIZE\" ]; then\n" +
                     "      PATCH_COUNT=$((PATCH_COUNT+1))\n" +
@@ -355,7 +356,6 @@ public class MainActivity extends Activity {
                 os.close();
 
                 BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-                BufferedReader errReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
                 String line;
                 boolean success = false;
                 int targetsPatched = 0;
@@ -367,11 +367,6 @@ public class MainActivity extends Activity {
                     }
                     if ("SLIME_PATCH_SUCCESS".equals(line.trim())) {
                         success = true;
-                    }
-                }
-                while ((line = errReader.readLine()) != null) {
-                    if (!line.trim().isEmpty()) {
-                        appendLog("Shell log: " + line);
                     }
                 }
                 process.waitFor();
@@ -411,14 +406,18 @@ public class MainActivity extends Activity {
                 OutputStream os = process.getOutputStream();
 
                 String cmd = 
+                    "exec 2>&1\n" +
                     "am force-stop " + GAME_PACKAGE + "\n" +
                     "BASE_DIR='" + I2_PARENT_DIR + "'\n" +
                     "[ ! -d \"$BASE_DIR\" ] && BASE_DIR='" + I2_ALT_PARENT_DIR + "'\n" +
+                    "NOW=$(date +%s)\n" +
                     "RESTORED_COUNT=0\n" +
                     "for SUB in \"$BASE_DIR\"/*; do\n" +
                     "  if [ -d \"$SUB\" ] && [ -f \"$SUB/__data.bak\" ]; then\n" +
-                    "    cp \"$SUB/__data.bak\" \"$SUB/__data\"\n" +
-                    "    chmod 666 \"$SUB/__data\"\n" +
+                    "    cp -f \"$SUB/__data.bak\" \"$SUB/__data\"\n" +
+                    "    printf '%s\\n' '-1' \"$NOW\" '1' '__data' > \"$SUB/__info\"\n" +
+                    "    chmod 666 \"$SUB/__data\" 2>/dev/null || true\n" +
+                    "    chmod 666 \"$SUB/__info\" 2>/dev/null || true\n" +
                     "    RESTORED_COUNT=$((RESTORED_COUNT+1))\n" +
                     "  fi\n" +
                     "done\n" +
@@ -487,48 +486,80 @@ public class MainActivity extends Activity {
     private void checkUpdate(boolean manual) {
         if (manual) appendLog("🔍 Đang kiểm tra bản cập nhật mới từ GitHub...");
         try {
-            URL url = new URL(GITHUB_API_LATEST);
-            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET");
-            conn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
-            conn.setConnectTimeout(8000);
-            conn.setReadTimeout(8000);
+            String tagName = "";
+            String body = "";
+            String apkUrl = "";
 
-            int code = conn.getResponseCode();
-            if (code == 200) {
-                BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                StringBuilder sb = new StringBuilder();
-                String l;
-                while ((l = br.readLine()) != null) sb.append(l);
-                br.close();
+            // 1. Try GitHub Releases API
+            try {
+                URL url = new URL(GITHUB_API_LATEST);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
+                conn.setConnectTimeout(6000);
+                conn.setReadTimeout(6000);
 
-                JSONObject json = new JSONObject(sb.toString());
-                String tagName = json.optString("tag_name", "");
-                String body = json.optString("body", "Không có mô tả.");
-                JSONArray assets = json.optJSONArray("assets");
-                String apkUrl = "";
-                if (assets != null) {
-                    for (int i = 0; i < assets.length(); i++) {
-                        JSONObject a = assets.getJSONObject(i);
-                        String name = a.optString("name", "");
-                        if (name.endsWith(".apk")) {
-                            apkUrl = a.optString("browser_download_url", "");
-                            break;
+                if (conn.getResponseCode() == 200) {
+                    BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+                    StringBuilder sb = new StringBuilder();
+                    String l;
+                    while ((l = br.readLine()) != null) sb.append(l);
+                    br.close();
+
+                    JSONObject json = new JSONObject(sb.toString());
+                    tagName = json.optString("tag_name", "");
+                    body = json.optString("body", "Bản cập nhật mới nhất từ GitHub Releases.");
+                    JSONArray assets = json.optJSONArray("assets");
+                    if (assets != null) {
+                        for (int i = 0; i < assets.length(); i++) {
+                            JSONObject a = assets.getJSONObject(i);
+                            String name = a.optString("name", "");
+                            if (name.endsWith(".apk")) {
+                                apkUrl = a.optString("browser_download_url", "");
+                                break;
+                            }
                         }
                     }
                 }
+            } catch (Exception ignored) {}
 
-                if (!tagName.isEmpty() && isNewerVersion(tagName, APP_VERSION) && !apkUrl.isEmpty()) {
-                    final String finalTag = tagName;
-                    final String finalApk = apkUrl;
-                    final String finalBody = body;
-                    mainHandler.post(() -> showUpdateDialog(finalTag, finalBody, finalApk));
-                } else if (manual) {
+            // 2. Fallback to raw version.json from main branch
+            if (apkUrl.isEmpty()) {
+                try {
+                    URL rawUrl = new URL(RAW_VERSION_URL);
+                    HttpURLConnection rawConn = (HttpURLConnection) rawUrl.openConnection();
+                    rawConn.setRequestMethod("GET");
+                    rawConn.setRequestProperty("User-Agent", "TensuraPatcher-Android");
+                    rawConn.setConnectTimeout(6000);
+                    rawConn.setReadTimeout(6000);
+
+                    if (rawConn.getResponseCode() == 200) {
+                        BufferedReader br = new BufferedReader(new InputStreamReader(rawConn.getInputStream()));
+                        StringBuilder sb = new StringBuilder();
+                        String l;
+                        while ((l = br.readLine()) != null) sb.append(l);
+                        br.close();
+
+                        JSONObject json = new JSONObject(sb.toString());
+                        tagName = json.optString("version", "");
+                        body = json.optString("notes", "Cập nhật bản vá Tiếng Việt mới.");
+                        apkUrl = json.optString("downloadUrl", "");
+                    }
+                } catch (Exception ignored) {}
+            }
+
+            if (!tagName.isEmpty() && isNewerVersion(tagName, APP_VERSION) && !apkUrl.isEmpty()) {
+                final String finalTag = tagName;
+                final String finalApk = apkUrl;
+                final String finalBody = body;
+                mainHandler.post(() -> showUpdateDialog(finalTag, finalBody, finalApk));
+            } else if (!tagName.isEmpty()) {
+                if (manual) {
                     appendLog("✅ Bạn đang sử dụng phiên bản mới nhất (" + APP_VERSION + ").");
                     mainHandler.post(() -> Toast.makeText(MainActivity.this, "Bạn đang dùng phiên bản mới nhất!", Toast.LENGTH_SHORT).show());
                 }
             } else if (manual) {
-                appendLog("⚠️ Chưa có bản phát hành trên GitHub (" + GITHUB_REPO + ").");
+                appendLog("⚠️ Chưa thể kết nối máy chủ cập nhật (GitHub). Vui lòng thử lại sau.");
             }
         } catch (Exception e) {
             if (manual) appendLog("⚠️ Lỗi kiểm tra cập nhật: " + e.getMessage());
@@ -563,8 +594,10 @@ public class MainActivity extends Activity {
         appendLog("⬇️ Đang tải bản cập nhật mới...");
         executor.execute(() -> {
             try {
-                File downloadDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-                File apkFile = new File(downloadDir, "Tensura_VietHoa_Update.apk");
+                File targetDir = getExternalFilesDir(null);
+                if (targetDir == null) targetDir = getCacheDir();
+                File apkFile = new File(targetDir, "Tensura_VietHoa_Update.apk");
+
                 URL u = new URL(apkUrl);
                 HttpURLConnection conn = (HttpURLConnection) u.openConnection();
                 conn.setConnectTimeout(15000);
@@ -583,20 +616,56 @@ public class MainActivity extends Activity {
 
                 // If Shizuku is authorized, install directly
                 if (Shizuku.pingBinder() && Shizuku.checkSelfPermission() == PackageManager.PERMISSION_GRANTED) {
-                    appendLog("⚙️ Đang tự động nâng cấp qua Shizuku...");
-                    Process p = newShizukuProcess(new String[]{"sh", "-c", "pm install -r '" + apkFile.getAbsolutePath() + "'\n"});
+                    appendLog("⚙️ Đang tiến hành cài đặt nâng cấp qua Shizuku...");
+                    String installCmd = 
+                        "exec 2>&1\n" +
+                        "TMP_APK='/data/local/tmp/Tensura_Update.apk'\n" +
+                        "cp -f '" + apkFile.getAbsolutePath() + "' \"$TMP_APK\"\n" +
+                        "chmod 644 \"$TMP_APK\"\n" +
+                        "pm install -r \"$TMP_APK\"\n" +
+                        "rm -f \"$TMP_APK\"\n" +
+                        "exit\n";
+                    Process p = newShizukuProcess(new String[]{"sh"});
+                    OutputStream pos = p.getOutputStream();
+                    pos.write(installCmd.getBytes());
+                    pos.flush();
+                    pos.close();
+
+                    BufferedReader pr = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                    String pl;
+                    boolean installSuccess = false;
+                    while ((pl = pr.readLine()) != null) {
+                        if (pl.toLowerCase().contains("success")) installSuccess = true;
+                        appendLog("Trình cài đặt: " + pl);
+                    }
                     p.waitFor();
-                    appendLog("🎉 Đã nâng cấp APK thành công!");
+
+                    if (installSuccess) {
+                        appendLog("🎉 Đã nâng cấp APK thành công! Vui lòng khởi động lại ứng dụng.");
+                        mainHandler.post(() -> Toast.makeText(MainActivity.this, "Nâng cấp thành công! Mở lại ứng dụng để áp dụng.", Toast.LENGTH_LONG).show());
+                    } else {
+                        appendLog("⚠️ Cài đặt qua Shizuku chưa hoàn tất, chuyển sang trình cài đặt hệ thống...");
+                        launchPackageInstaller(apkFile);
+                    }
                 } else {
-                    mainHandler.post(() -> {
-                        Intent intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setDataAndType(Uri.fromFile(apkFile), "application/vnd.android.package-archive");
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                        startActivity(intent);
-                    });
+                    launchPackageInstaller(apkFile);
                 }
             } catch (Exception e) {
                 appendLog("❌ Lỗi khi tải hoặc cài đặt bản cập nhật: " + e.getMessage());
+            }
+        });
+    }
+
+    private void launchPackageInstaller(File apkFile) {
+        mainHandler.post(() -> {
+            try {
+                android.os.StrictMode.setVmPolicy(new android.os.StrictMode.VmPolicy.Builder().build());
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setDataAndType(Uri.fromFile(apkFile), "application/vnd.android.package-archive");
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                startActivity(intent);
+            } catch (Exception e) {
+                appendLog("Lỗi mở trình cài đặt: " + e.getMessage());
             }
         });
     }

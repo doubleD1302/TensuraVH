@@ -1,0 +1,38 @@
+name: Release APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Tensura_VietHoa_Shizuku.apk
+          name: Tensura Việt Hóa ${{ github.ref_name }}
+          body: |
+            ## 🌸 Tensura ISEKAI Memories - Bản Việt Hóa ${{ github.ref_name }}
+            
+            ### ✨ Tính năng & Thay đổi:
+            - Giao diện trực quan 100% Tiếng Việt, Dark Mode hiện đại.
+            - Hỗ trợ Shizuku tự động cài đặt không cần Root.
+            - Tự động nạp bản dịch chuẩn xác vào `UnityCache/Shared`.
+            - Tích hợp kiểm tra và tự động cập nhật bản vá trực tiếp trong ứng dụng.
+            
+            ### 📱 Hướng dẫn sử dụng:
+            1. Cài đặt và mở ứng dụng **Shizuku** (khởi chạy qua Wifi/ADB).
+            2. Mở ứng dụng **Tensura Việt Hóa** và cấp quyền Shizuku.
+            3. Nhấn **🚀 CÀI ĐẶT BẢN VIỆT HÓA**.
+            4. Nhấn **🎮 KHỞI ĐỘNG GAME NGAY** và thưởng thức game bằng Tiếng Việt!
+          draft: false
+          prerelease: false

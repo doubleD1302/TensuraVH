@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "versionCode": 1,
+  "downloadUrl": "https://raw.githubusercontent.com/doubleD1302/TensuraVH/main/Tensura_VietHoa_Shizuku.apk",
+  "notes": "Bản phát hành chính thức v1.0.0:\n- Giao diện Dark Mode 100% Tiếng Việt.\n- Nạp bản dịch trực tiếp vào bộ nhớ đệm UnityCache của game.\n- Tích hợp tính năng tự động cập nhật bản vá mới từ GitHub.\n- Hoàn toàn tương thích Android 10, 11, 12, 13, 14 và HyperOS."
+}
