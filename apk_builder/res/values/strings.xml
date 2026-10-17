@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tensura Việt Hóa</string>
+    <string name="app_subtitle">Trình cài đặt bản dịch Tiếng Việt tự động (Hỗ trợ Shizuku)</string>
+    <string name="target_game_title">That Time I Got Reincarnated as a Slime: ISEKAI Memories</string>
+    <string name="package_name_text">Gói game: com.bandainamcoent.tensuramrkww</string>
+    
+    <string name="card_status_title">TRẠNG THÁI HỆ THỐNG</string>
+    <string name="shizuku_label">Dịch vụ Shizuku:</string>
+    <string name="shizuku_checking">Đang kiểm tra dịch vụ Shizuku...</string>
+    <string name="shizuku_not_running">🔴 Shizuku chưa chạy (Hãy mở app Shizuku và bắt đầu dịch vụ)</string>
+    <string name="shizuku_no_permission">⚠️ Shizuku đang chạy nhưng chưa được cấp quyền</string>
+    <string name="shizuku_ready">🟢 Shizuku đã kết nối &amp; cấp quyền thành công</string>
+    <string name="btn_req_shizuku">Cấp Quyền Shizuku Ngay</string>
+    
+    <string name="game_label">Tình trạng Game:</string>
+    <string name="game_checking">Đang quét game trên thiết bị...</string>
+    <string name="game_installed">🟢 Đã tìm thấy game Tensura</string>
+    <string name="game_not_installed">⚠️ Chưa tìm thấy game Tensura ISEKAI Memories trên máy</string>
+    
+    <string name="patch_label">Phiên bản Bản Vá:</string>
+    <string name="patch_version">v1.0.0 (Sẵn sàng cài đặt)</string>
+    
+    <string name="card_actions_title">TÁC VỤ VIỆT HÓA</string>
+    <string name="btn_install_patch">🚀 CÀI ĐẶT BẢN VIỆT HÓA</string>
+    <string name="btn_restore_original">🔄 KHÔI PHỤC TIẾNG ANH GỐC</string>
+    <string name="btn_launch_game">🎮 KHỞI ĐỘNG GAME NGAY</string>
+    <string name="btn_check_update">✨ KIỂM TRA BẢN CẬP NHẬT MỚI</string>
+    
+    <string name="card_log_title">NHẬT KÝ HOẠT ĐỘNG</string>
+    <string name="log_ready">Hệ thống sẵn sàng. Bấm Cài Đặt Bản Việt Hóa để bắt đầu.</string>
+</resources>

@@ -1,0 +1,33 @@
+# Large game split APKs & extracted game dumps
+*.apk
+!Tensura_VietHoa_Shizuku.apk
+*.so
+*.dat
+*.resS
+*.bundle
+!primary_font_bundle_patched.bundle
+*.zip
+*.idsig
+
+# Intermediate build artifacts
+apk_builder/classes/
+apk_builder/dex/
+apk_builder/gen/
+apk_builder/compiled_res.zip
+apk_builder/unaligned.apk
+apk_builder/aligned.apk
+apk_builder/debug.keystore
+
+# Python & OS
+.venv/
+__pycache__/
+*.pyc
+*.bin
+*.txt
+!requirements.txt
+com.bandainamcoent.tensuramrkww/
+tmp_repo/
+
+# Screenshots
+*.png
+*.jpg

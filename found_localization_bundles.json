@@ -1,0 +1,112 @@
+[
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\5b9e37e83b5d50c7a63ad5b2eeafd8b7\\12f515048c8b0d99d0a0a57bddfac463\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/SpriteElement/SpriteElement.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\5b9e37e83b5d50c7a63ad5b2eeafd8b7\\12f515048c8b0d99d0a0a57bddfac463\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/SpriteElement/SpriteElement.json"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\6219b37de0f77388044b5943e46c88f4\\b30f7d8d0ce10db1b6c15537b5541b87\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/Master/MasterLocalization.bytes"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\6219b37de0f77388044b5943e46c88f4\\b30f7d8d0ce10db1b6c15537b5541b87\\__data",
+    "type": "TextAsset",
+    "name": "MasterLocalization"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\9043dd1de9072f14f79c06f1e1a7b181\\f2ff6b0c5ed7e8266d47022f872d976d\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/Master/MasterDefineNonLocalizedString/MasterDefineNonLocalizedString.bytes"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\9043dd1de9072f14f79c06f1e1a7b181\\f2ff6b0c5ed7e8266d47022f872d976d\\__data",
+    "type": "TextAsset",
+    "name": "MasterDefineNonLocalizedString"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\b9fec54aeacf0c09b920362a6bbf56d8\\350703ec3db67a529c8b0fb7f60256a2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/Common/Gradient/ForgeResult1.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\b9fec54aeacf0c09b920362a6bbf56d8\\350703ec3db67a529c8b0fb7f60256a2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/Common/Gradient/ForgeResult3.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\b9fec54aeacf0c09b920362a6bbf56d8\\350703ec3db67a529c8b0fb7f60256a2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/Common/Gradient/StillRelease.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\b9fec54aeacf0c09b920362a6bbf56d8\\350703ec3db67a529c8b0fb7f60256a2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/Common/Gradient/ForgeResult2.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\baad181fc8596596149644262d31f2a6\\b09686f380a54f90be924c34c81ea693\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/I2Localization/I2Languages.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\baad181fc8596596149644262d31f2a6\\b09686f380a54f90be924c34c81ea693\\__data",
+    "type": "MonoBehaviour",
+    "name": "I2Languages"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationShadow1.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_Animation.asset"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationShadow2.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationRGBNoise1.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationTowerStart1.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationRGBNoiseShadow.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationBossWarning.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationTowerStart2.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationTowerStart3.mat"
+  },
+  {
+    "path": "com.bandainamcoent.tensuramrkww/files/UnityCache/Shared\\d2f7bf019e9235913231da58e9f43b55\\d410af2fc4e66fb3ea67bf46056b9ec2\\__data",
+    "type": "container",
+    "name": "Assets/AssetBundles/UI/Font/TextMeshPro/JapaneseOnly/JapaneseOnly_AnimationCommonShadow1.mat"
+  }
+]

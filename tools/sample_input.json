@@ -1,0 +1,8 @@
+[
+  {"id": "S01_001", "source": "リムル様、お食事の用意ができました！", "translation": "Rimuru-sama, bữa ăn đã sẵn sàng rồi ạ!"},
+  {"id": "S02_010", "source": "<color=#FFCC00>リムル</color>は{0}のダメージを受けた！", "translation": "<color=#FFCC00>Rimuru đã chịu 0 sát thương!"},
+  {"id": "SK_021", "source": "味方全体の攻撃力を<color=#FFCC00>{0}%</color>アップ（{1}ターン）。", "translation": "Tăng Công toàn đội <color=#FFCC00>{0}%</color> ({1} lượt).", "max_chars": 55},
+  {"id": "SK_033", "source": "敵全体に攻撃力の{0}%のダメージを与え、{1}%の確率で毒状態にする。", "translation": "Gây {0}% ATK ST lên toàn địch, {1}% gây Độc.", "max_chars": 40},
+  {"id": "UI_0012", "source": "確認\\n本当に削除しますか？", "translation": "Xác nhận Bạn có chắc muốn xóa không?"},
+  {"id": "S03_007", "source": "ふむ…", "translation": "Hừm… “được thôi”"}
+]

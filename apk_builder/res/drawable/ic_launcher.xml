@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Slime Body -->
+    <path
+        android:fillColor="#38B6FF"
+        android:pathData="M54,24 C34,24 24,40 24,60 C24,78 36,88 54,88 C72,88 84,78 84,60 C84,40 74,24 54,24 Z" />
+    <!-- Slime Highlight -->
+    <path
+        android:fillColor="#80E0FF"
+        android:pathData="M44,30 C38,30 32,36 32,46 C32,48 34,48 34,46 C34,38 38,34 44,34 C46,34 46,30 44,30 Z" />
+    <!-- Slime Eyes -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M40,54 C36,54 36,60 40,60 C44,60 44,54 40,54 Z M68,54 C64,54 64,60 68,60 C72,60 72,54 68,54 Z" />
+</vector>

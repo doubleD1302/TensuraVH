@@ -1,0 +1,6769 @@
+{
+  "summary": {
+    "total": 4240,
+    "pass": 3810,
+    "revise": 421,
+    "fail": 9,
+    "blockers": 9,
+    "majors": 421,
+    "minors": 33
+  },
+  "reports": [
+    {
+      "id": "22",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 冥焔ノ紅撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "24",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 輝竜遊撃掌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "32",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 2, dịch 1",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "36",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 厄禍眼光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "37",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: やくかがんこう",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "39",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 混沌掌握",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "41",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 極限突破",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "43",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 焦炎獄領域",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "45",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜気転換",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "47",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 迷宮創造",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "49",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴嵐絶哮",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "51",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: パペット・ロンド",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "53",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魂滅斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "54",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: こんめつざ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "56",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黒炎獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "58",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 爆轟閃刃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "60",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暗界重闇爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "62",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ソーラレイン",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "64",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 煉獄の握手",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "66",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 虚暴超重力",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "68",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 混沌喰",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "70",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 渦槍水流撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "72",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 巌地塊弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "73",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: グランドブスター",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "75",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧・地天轟雷",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "77",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 猛猪烈震掌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "79",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 死者之行進演舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "81",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 後方回転蹴",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "84",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 瞬裂斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "86",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 空蝉一閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "88",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 蜃気楼吹雪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "90",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 炎化爆獄陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "92",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 勇翔斬波",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "94",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 豪重打",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "96",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鍛造三悪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "98",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星拡散爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "100",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星爆砕拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "102",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星崩落蹴",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "103",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ドラゴダイバー",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "105",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 豹牙爆炎掌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "107",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 疾風爪牙",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "109",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黒雷嵐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "111",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 筋肉猛突蹴",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "113",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 神之怒",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "115",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黒稲妻",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "117",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 縛糸・黒炎獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "120",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 水刃乱雨",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "122",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 狂闘奏破",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "124",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紫剛鉄槌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "125",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: しごうてっつい",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "127",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 断頭鬼刃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "130",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 烈風双斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "132",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 灼焔却撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "134",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 連鎖蒼焔",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "136",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天煌華",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "138",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 封帯滅陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "140",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鳳天衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "142",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 斬乱影",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "143",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ざんらえい",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "145",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 操糸万妖斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "148",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 瞬刃闇薙",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "150",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 大気圧縮断裂",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "152",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 大気奏爛刃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "154",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 破魔柔掌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "224",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 加護スキル発動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "227",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 告",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "243",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 奥義発動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "925",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 6, dịch 2",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "950",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "951",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "952",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "953",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "954",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "955",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "965",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 終焉の円舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1013",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "CHAR_RISK",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Ký tự: …(U+2026)",
+          "explanation": "Ký tự có thể thiếu trong font game, dễ hiện ô vuông.",
+          "fix": "Thay: … → ..."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1113",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 秘書之極意",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1114",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 焔魔冥迅斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1115",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星爆炎覇",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1116",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星斬撃衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1117",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ドラゴ・スッシュ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1118",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食之王",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1119",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 覇竜絶影拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1125",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 焔魔冥迅斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1151",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "CHAR_RISK",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Ký tự: …(U+2026)",
+          "explanation": "Ký tự có thể thiếu trong font game, dễ hiện ô vuông.",
+          "fix": "Thay: … → ..."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1152",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "CHAR_RISK",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Ký tự: …(U+2026)",
+          "explanation": "Ký tự có thể thiếu trong font game, dễ hiện ô vuông.",
+          "fix": "Thay: … → ..."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1179",
+      "verdict": "FAIL",
+      "issues": [
+        {
+          "code": "ESC_CHANGED",
+          "severity": "BLOCKER",
+          "category": "technical",
+          "evidence": "xuống dòng thật (LF): gốc 1, dịch 0",
+          "explanation": "Ký tự điều khiển/escape/entity khác bản gốc.",
+          "fix": "Giữ nguyên số lượng và dạng \\n, \\t, xuống dòng và &entity; như gốc."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1217",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 究明之王",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1227",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖夜の輝き",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1229",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 華麗煌嵐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1231",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔王之贈物",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1232",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 円環の息吹",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1234",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖樹斬旋風",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1245",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 豪快調理",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1247",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 迅速給仕",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1249",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖典活用",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1251",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 破壊清掃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1253",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 夜魔の覇圧",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1255",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 妖艶誘惑",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1257",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔国之来光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1259",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星閃昇拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1263",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 輝清春光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1267",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: フレアスマッシュ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1269",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 赫灼獄魔炎",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1271",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 双風球圧殺",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1295",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 霊子崩壊",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1297",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 一途恋心",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1299",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 特別製菓",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1303",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 甘菓子乱舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1306",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: スペシャルクッキング",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1307",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 刑戮閃空崩",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1316",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 安寧之聖剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1318",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 安息之剣閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1320",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 螺旋水渦",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1322",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 覇断衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1324",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ヘル・カタストロフ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1326",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 大嵐絶海嘯",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1328",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 凍瞬氷散爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1331",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天地斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1333",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 裂断炎剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1335",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紅死光芒",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1337",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 多重妖斬迅",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1455",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 輝光裂天剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1457",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 抗えぬ天女の爪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1459",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1465",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴風之守護神",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1467",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 猛襲暴風",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1469",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 獣魔粒子砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1471",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 死哭魔煌砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1473",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 獣破連弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1475",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 運命流転",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1477",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ビースト・ラッシュ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1522",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 獣魔粒子咆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1551",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 梅雨晴之華燭",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1553",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 嬉輝絨",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1555",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 巨拳烈怒",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1557",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 縁辿双環",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1559",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 悠久誓愛",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1574",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 悪魔舞踏会",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1576",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 幽獄死裂斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1578",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 崩滅連斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1580",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 地裂炸薬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1582",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 流星網",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1590",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鮮紅滅月",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1598",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜水転夏",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1600",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 七彩終焉刺突撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1602",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 遊水童心",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1604",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 海崩烈打",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1606",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 煌水珠",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1631",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 崩滅斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1660",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絢爛妖世界",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1662",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 全砕掌撃破",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1664",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 斬絶乱舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1666",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魂断双刃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1668",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 崩撃粒子砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1670",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 舞踏麗槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1677",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天地脈活性",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1679",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 踊る人形達",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1681",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鉱結晶魔弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1683",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 巨岩破拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1704",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴嵐守護",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1707",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 虚空彩白闇雫",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1709",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鏡界崩滅獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1711",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星転旋斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1713",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 極魔融王斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1761",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "SPACING",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "-  Touch ",
+          "explanation": "Có hai khoảng trắng liên tiếp.",
+          "fix": "Chỉ giữ một khoảng trắng."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1924",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 堕天裂閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1929",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 炎刃乱華",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1931",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 贈送突進",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1933",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 熱狂愛魔",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1936",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 浄化祈祷",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1938",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧・黒炎斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1940",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鬼王の妖炎",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1942",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 虚無消失獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1980",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 静寂月舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1982",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 美神ノ断罪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1984",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴竜剛虐撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1986",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 日輪天地砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "1988",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 捷跳躍撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2026",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 究逸甘味弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2028",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絶速甘撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2032",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 美菓創撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2034",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔壊瞬亡撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2036",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 悪戯飾調術",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2038",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ロックフォール",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2040",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 豪流衝閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2042",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 斬魔十字閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2043",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絶対君主領域",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2045",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 心気槍閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2047",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 全力一打",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2049",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 無限叡智波弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2100",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 極奥義発動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2102",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔遊支配撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2105",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 幻想劇列車",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2107",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 光環舞臨",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2109",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 八星絢爛",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2111",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖魔斬滅",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2113",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 焦嵐波斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2131",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黒魔滅却爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2133",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 響煌鎮魂華",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2136",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紫棘轟鳴衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2138",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絶刻停界",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2140",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 死叫絶毒爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2142",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 神之怒獄界",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2144",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 精霊加護祈誓",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2146",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 祝花絆守",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2148",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 縁叶桃源郷",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2150",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 誓杯麗姫",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2176",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 狂癖囮爆散",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2178",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 群青魔楔",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2192",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: こちらは仕様が変更されるためいっん翻訳不要になります",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2193",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: こちらは仕様が変更されるためいっん翻訳不要になります",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2309",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 異界絆爆魔",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2311",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 爆裂魔法",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2313",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 共鳴剛射弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2344",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 女神鎮魂歌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2356",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 遊激竜泳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2359",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 涼溟群青炎",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2361",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 緑麗夕陽",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2363",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 夏弾陽星",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2365",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 泡沫狂奏",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2367",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 夕涼呼嵐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2369",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 虚無終焉",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2371",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖盾瞬閃撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2373",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鎖狼之爪牙",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2375",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 戦場神之槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2396",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 電現爆砕",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2398",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 菓子隕石爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2400",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔女の悪戯爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2402",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 疾走咆哮牙",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2405",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暗剣滅空陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2407",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 流剣連波濤",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2409",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 悉呑暴食者",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2411",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 砕紫虚無喰",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2413",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 月下女王恐域",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2470",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 白皙淵灼光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2472",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 矛盾通槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2475",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黄光爆滅撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2478",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 未来飛行",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2480",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ロケットスター",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2496",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔国聖歌唱",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2498",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 厄災封光陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2500",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 冥道黒破斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2502",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜獄葬ノ刑",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2504",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 九魂妖尾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2506",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 辰之怒",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2513",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天地改変",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2515",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 双魔王滅撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2517",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 連鎖する龍雷",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2523",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 狂暴獄斧",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2525",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 守護の重斧",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2527",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 清浄投擲槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2529",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鬼煌拡散爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2531",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 森緑陽光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2534",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧瞬裂斬改",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ！",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2536",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黒滅鎖縛陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2540",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 極炎斬波閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2544",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔黒命刈斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2546",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 死感ノ紫灯",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2549",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 翡翠逆鱗",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2551",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 琥珀核撃斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2553",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 白薔薇之大弓",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2561",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 獄厄焦土",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2563",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 壮撃万象滅",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2565",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 幻天華舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2567",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星万崩拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2569",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 瞬雷陸裂破",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2571",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 龍脈破壊砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2573",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 悲哀込拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2575",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 運命封斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2577",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 荒乱斬突翔",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2579",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 栄光ノ聖騎士",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2581",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 精霊炎旋斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2583",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 崩魔霊子斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2585",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絶望の時間",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2587",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 強欲ノ天秤",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2589",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 死せる者への祝福",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2591",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 人鬼狼突撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2593",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 巌柱圧葬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2921",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食之王・滅爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2924",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧流・落葉断ち",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2926",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 旋風炎翼衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2929",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧流・紅葉の舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2931",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 旋影回転斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2933",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 霊子舞踏陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2935",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 封巌妖爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2937",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 英雄威光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2939",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鉄腕剛撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2941",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 開国祭の祝砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2943",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 盟主礼讃律",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2959",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 血刃絆ノ帳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2961",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鬼角狙撃銃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2963",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食乱咲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2965",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 矛盾追槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2967",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鏡滅界獄落",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2971",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 赤魔命奪域",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2973",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 真・竜星爆覇拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2975",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 冥黒魂握爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "2977",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天界雷槍嵐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3008",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 海神殿之恩恵",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3010",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 朧流・戦神絶轟",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3012",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 月光聖刻射",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3014",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 白壊天尽撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3016",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖樹愛光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3018",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紫毒聖樹爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3020",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖夜の小さな願い",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3022",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖夜演舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3024",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 欲望ノ渦煌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3026",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 半世紀流星",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3028",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 一般攻撃魔法・極",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3030",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食之王・異式",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3032",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 閃天撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3034",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔族を殺す法・乱",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3089",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 荒狂嵐覇",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3091",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 生と死の境裂消",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3098",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食之魔国王",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3101",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 巨爪裂傷嵐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3103",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 一閃掌握",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3105",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 爆憤抹消刃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3107",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 集積叡導・刻",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3109",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 廻奏烈脚弾",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3111",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鋭麗翼滅巻",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3113",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 戦界勝針",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3115",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 蒼炎獄斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3117",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 無限魔斬撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3119",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 毒柱消失爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3138",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暗転白裂",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3140",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 万象魔崩閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3144",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔精命捧爆",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3146",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 氷舞竜霊波",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3152",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 精霊魔波動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3155",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 精霊運命刻",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3158",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 操糸縛界陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3160",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 幻惑斬乱舞",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3162",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 跳糸斬界陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3164",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魂源瞬撃奪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3173",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 精霊魔融合斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3175",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 月華猫斬爪",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3177",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 漸毅狼影陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3179",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: スプリームエレメンツ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3181",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: アドレビートオムニ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3186",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 緋炎衝・開",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3189",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: リーサル・ペイン",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3191",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 荒狂渦海棘",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3193",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 絶冥灼海",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3198",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 燼滅拒絶撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3200",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 魔狩天墜星",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3203",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 英雄の一撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3205",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖焔の饗宴",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3207",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: リル・ラファーガ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3209",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 神焔浄滅",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3211",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 妖精の星光",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3213",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ルミノス・ウィンド",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3224",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 祝福ノ開門",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3226",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 英雄追憶剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3228",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 呪術王砕拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3230",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 禍つ凶生の祝福",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3232",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 時壊ノ雫落",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3241",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 盟友の想拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3243",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 辰喰者",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3245",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 氷結凍降棘",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3247",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 界滅竜風",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3250",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜刃乱破",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3284",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ターン目は心ノ絵スキルを使用できません的なテト仮",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3393",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 銀夜幻導",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3395",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖白雪狐",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3397",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天落雪塊",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3399",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖夜怒猫撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3401",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 妖狐怨撃砲",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3403",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 友絆の連携",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3405",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 異式・支援魔法",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3407",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ホリゾンタル・スクエア",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3409",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: フラッシング・ペネトレイター",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3411",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 氷狼の狙撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3413",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: マザーズ・ロリオ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3416",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 狂操乱舞撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3418",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紫光暁導",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3420",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 煉獄天降",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3449",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 武炎猛斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3451",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 禍影糸縛",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3453",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 響鳴ノ獄界",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3455",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 碧海の呼び笛",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3457",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 波嵐万乗",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3459",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: メギド・レイ",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3461",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 砕光散雨撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3463",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖気闘剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3465",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 救界勇斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3467",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 蒼海の呼び笛",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3468",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 断命台ノ惨撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3475",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 発動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3499",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 大気奏爛鞭",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3501",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 動",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3502",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 発",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3504",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 氷晶天華",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3507",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鳳赤翼爆衝",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3514",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 煌彩星滅陣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3516",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 鬼道鏡座",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3518",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 迷獄創槌",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3520",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 旋嵐の咆哮",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3522",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 究極奥義",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3524",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 焔旋戯拳",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3526",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 幽冥閃光波",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3528",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天突一角撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3530",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 旋流鬼銛槍",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3532",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 竜星掘貫撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3539",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 翠薔円舞葬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3541",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 七彩水飛沫",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3543",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 炸裂大水球",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3545",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 舞薔薇爪撃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3547",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 重力操作",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3549",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 熔断頭霊子斬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3552",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 蒼華十字葬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3554",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 浄刃砕岩閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3556",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 黄光禍地変",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3558",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 核崩裁天柱",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3560",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 冥霧旋滅獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3562",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 蝶硝崩壊閃",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3564",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 紫毒崩晶獄",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3569",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 刻光ノ閃瞬",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3571",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 深淵の剛蹴",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3573",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 天壌裂界",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3575",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 夜天崩落",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3577",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 聖光ノ教導",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3579",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 円環ノ惑淵",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3581",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 無赦鋼壁圧",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3583",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 崩界紫怨波",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3585",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 熾光ノ狂剣",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3587",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 時空断絶",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3595",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 豪絶ノ怒震",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3597",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: 暴食之双翼",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3623",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "SPACING",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "\u0002\u0002\u0002   \u0002\u0002\u0002\u0002\u0002\u0002",
+          "explanation": "Có hai khoảng trắng liên tiếp.",
+          "fix": "Chỉ giữ một khoảng trắng."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3645",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "SPACING",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "CV:  \u0002\u0002\u0002",
+          "explanation": "Có hai khoảng trắng liên tiếp.",
+          "fix": "Chỉ giữ một khoảng trắng."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3659",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "SPACING",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "\u0002\u0002\u0002  (\u0002\u0002\u0002~\u0002",
+          "explanation": "Có hai khoảng trắng liên tiếp.",
+          "fix": "Chỉ giữ một khoảng trắng."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3701",
+      "verdict": "REVISE",
+      "issues": [
+        {
+          "code": "UNTRANSLATED",
+          "severity": "MAJOR",
+          "category": "technical",
+          "evidence": "Còn chữ Nhật/Hán: ・",
+          "explanation": "Bản dịch còn sót chữ Nhật/Hán chưa dịch.",
+          "fix": "Dịch nốt phần còn sót."
+        },
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ・",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3820",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "SPACING",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "CV:   \u0002\u0002\u0002",
+          "explanation": "Có hai khoảng trắng liên tiếp.",
+          "fix": "Chỉ giữ một khoảng trắng."
+        }
+      ],
+      "suggested_translation": null
+    },
+    {
+      "id": "3896",
+      "verdict": "PASS",
+      "issues": [
+        {
+          "code": "PUNCT_STYLE",
+          "severity": "MINOR",
+          "category": "technical",
+          "evidence": "Dấu toàn角: ：",
+          "explanation": "Dấu câu kiểu Nhật chưa đổi sang dấu Việt/ASCII.",
+          "fix": "Đổi sang dấu thường (, . ! ? : ;) hoặc \" '."
+        }
+      ],
+      "suggested_translation": null
+    }
+  ]
+}
