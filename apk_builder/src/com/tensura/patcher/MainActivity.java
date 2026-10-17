@@ -189,17 +189,41 @@ public class MainActivity extends Activity {
 
             @Override
             public OutputStream getOutputStream() {
-                return new FileOutputStream(outPfd.getFileDescriptor());
+                return new FileOutputStream(outPfd.getFileDescriptor()) {
+                    @Override
+                    public void close() throws java.io.IOException {
+                        super.close();
+                        try {
+                            outPfd.close();
+                        } catch (Exception ignored) {}
+                    }
+                };
             }
 
             @Override
             public InputStream getInputStream() {
-                return new FileInputStream(inPfd.getFileDescriptor());
+                return new FileInputStream(inPfd.getFileDescriptor()) {
+                    @Override
+                    public void close() throws java.io.IOException {
+                        super.close();
+                        try {
+                            inPfd.close();
+                        } catch (Exception ignored) {}
+                    }
+                };
             }
 
             @Override
             public InputStream getErrorStream() {
-                return new FileInputStream(errPfd.getFileDescriptor());
+                return new FileInputStream(errPfd.getFileDescriptor()) {
+                    @Override
+                    public void close() throws java.io.IOException {
+                        super.close();
+                        try {
+                            errPfd.close();
+                        } catch (Exception ignored) {}
+                    }
+                };
             }
 
             @Override
@@ -247,25 +271,43 @@ public class MainActivity extends Activity {
 
         executor.execute(() -> {
             try {
-                // Step 1: Stream patch asset directly through Shizuku shell to external shared path
-                // This completely bypasses internal cache permission issues!
-                appendLog("📦 Trích xuất dữ liệu bản dịch sang bộ nhớ đệm chia sẻ...");
-                String sharedTmpPath = "/sdcard/Download/tensura_patch_data.tmp";
-                Process streamProcess = newShizukuProcess(new String[]{"sh", "-c", "cat > '" + sharedTmpPath + "' && chmod 666 '" + sharedTmpPath + "'"});
-                
+                // Step 1: Fast direct extraction to external staging file (No pipe, no hang!)
+                appendLog("📦 Đang trích xuất dữ liệu bản dịch...");
+                File targetDir = getExternalFilesDir(null);
+                if (targetDir == null) targetDir = getExternalCacheDir();
+                if (targetDir == null) targetDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
+                if (!targetDir.exists()) targetDir.mkdirs();
+
+                File stagingFile = new File(targetDir, "tensura_patch_data.bin");
                 long bytesWritten = 0;
                 try (InputStream is = getAssets().open("mod/__data");
-                     OutputStream os = streamProcess.getOutputStream()) {
+                     FileOutputStream fos = new FileOutputStream(stagingFile)) {
                     byte[] buffer = new byte[16384];
                     int read;
                     while ((read = is.read(buffer)) != -1) {
-                        os.write(buffer, 0, read);
+                        fos.write(buffer, 0, read);
                         bytesWritten += read;
                     }
-                    os.flush();
+                    fos.flush();
                 }
-                streamProcess.waitFor();
-                appendLog("✅ Trích xuất thành công: " + (bytesWritten / 1024) + " KB.");
+                stagingFile.setReadable(true, false);
+
+                // Secondary copy to /sdcard/Download as fallback if available
+                String dlPath = "/sdcard/Download/tensura_patch_data.bin";
+                try {
+                    File dlFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "tensura_patch_data.bin");
+                    try (InputStream in = new FileInputStream(stagingFile);
+                         OutputStream out = new FileOutputStream(dlFile)) {
+                        byte[] b = new byte[16384];
+                        int r;
+                        while ((r = in.read(b)) != -1) out.write(b, 0, r);
+                        out.flush();
+                    }
+                    dlFile.setReadable(true, false);
+                    dlPath = dlFile.getAbsolutePath();
+                } catch (Exception ignored) {}
+
+                appendLog("✅ Trích xuất hoàn tất (" + (bytesWritten / 1024) + " KB).");
 
                 // Step 2: Execute Shizuku shell script to inject into UnityCache
                 appendLog("⚙️ Áp dụng bản dịch vào UnityCache của game...");
@@ -273,11 +315,13 @@ public class MainActivity extends Activity {
                 OutputStream os = process.getOutputStream();
 
                 String cmd = 
-                    "set -e\n" +
                     "am force-stop " + GAME_PACKAGE + "\n" +
-                    "SRC='" + sharedTmpPath + "'\n" +
-                    "if [ ! -f \"$SRC\" ] || [ ! -s \"$SRC\" ]; then\n" +
-                    "  echo 'ERROR_SRC_MISSING'\n" +
+                    "SRC='" + stagingFile.getAbsolutePath() + "'\n" +
+                    "[ ! -s \"$SRC\" ] && SRC='" + dlPath + "'\n" +
+                    "[ ! -s \"$SRC\" ] && SRC='/sdcard/Download/tensura_patch_data.bin'\n" +
+                    "[ ! -s \"$SRC\" ] && SRC='/storage/emulated/0/Download/tensura_patch_data.bin'\n" +
+                    "if [ ! -s \"$SRC\" ]; then\n" +
+                    "  echo 'ERROR_SRC_NOT_FOUND'\n" +
                     "  exit 1\n" +
                     "fi\n" +
                     "SRC_SIZE=$(wc -c < \"$SRC\" | tr -d ' ')\n" +
@@ -290,7 +334,7 @@ public class MainActivity extends Activity {
                     "for SUB in \"$BASE_DIR\"/*; do\n" +
                     "  if [ -d \"$SUB\" ]; then\n" +
                     "    [ ! -f \"$SUB/__data.bak\" ] && [ -f \"$SUB/__data\" ] && cp \"$SUB/__data\" \"$SUB/__data.bak\"\n" +
-                    "    cp \"$SRC\" \"$SUB/__data\"\n" +
+                    "    cp -f \"$SRC\" \"$SUB/__data\"\n" +
                     "    printf -- '-1\\n%%s\\n1\\n__data\\n' \"$NOW\" > \"$SUB/__info\"\n" +
                     "    chmod 666 \"$SUB/__data\"\n" +
                     "    chmod 666 \"$SUB/__info\"\n" +
@@ -301,7 +345,7 @@ public class MainActivity extends Activity {
                     "    fi\n" +
                     "  fi\n" +
                     "done\n" +
-                    "rm -f \"$SRC\"\n" +
+                    "rm -f \"$SRC\" '" + dlPath + "' 2>/dev/null || true\n" +
                     "echo \"PATCH_APPLIED_TARGETS:$PATCH_COUNT\"\n" +
                     "echo 'SLIME_PATCH_SUCCESS'\n" +
                     "exit\n";
