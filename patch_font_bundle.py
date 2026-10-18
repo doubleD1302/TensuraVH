@@ -6,12 +6,14 @@ from scipy.ndimage import distance_transform_edt
 from fontTools.ttLib import TTFont
 import UnityPy
 from UnityPy.streams import EndianBinaryReader
+from pathlib import Path
 
 def main():
     print("=== Patching Font Asset Bundle for Vietnamese Localization ===")
-    bundle_path = r"c:\slime\primary_font_bundle.bundle"
-    output_bundle_path = r"c:\slime\primary_font_bundle_patched.bundle"
-    font_path = r"c:\slime\test_font.ttf"
+    root = Path(__file__).resolve().parent
+    bundle_path = str(root / "primary_font_bundle.bundle")
+    output_bundle_path = str(root / "primary_font_bundle_patched.bundle")
+    font_path = str(root / "test_font.ttf")
 
     if not os.path.exists(bundle_path):
         print(f"Error: {bundle_path} not found!")
@@ -78,6 +80,17 @@ def main():
     free_y = 3714
     free_w = 647
     free_h = 381
+    reserved = {"m_X": free_x, "m_Y": free_y, "m_Width": free_w, "m_Height": free_h}
+    if reserved not in common_data["m_FreeGlyphRects"]:
+        raise ValueError("Expected free atlas region is unavailable; refusing to overwrite glyphs")
+
+    def intersects(a, b):
+        return (a["m_X"] < b["m_X"] + b["m_Width"] and b["m_X"] < a["m_X"] + a["m_Width"]
+                and a["m_Y"] < b["m_Y"] + b["m_Height"] and b["m_Y"] < a["m_Y"] + a["m_Height"])
+
+    if any(intersects(g["m_GlyphRect"], reserved) for g in common_data["m_GlyphTable"]):
+        raise ValueError("Reserved atlas region overlaps an existing glyph")
+    used_slots = []
 
     shelf_x = 0
     shelf_y = 0
@@ -123,6 +136,8 @@ def main():
 
         unity_slot_x = free_x + cur_slot_x
         unity_slot_y = free_y + cur_slot_y
+        used_slots.append({"m_X": unity_slot_x, "m_Y": unity_slot_y,
+                           "m_Width": slot_w, "m_Height": slot_h})
 
         # Rasterize at 8x scale
         hi_bbox = hi_font.getbbox(ch)
@@ -192,8 +207,11 @@ def main():
     common_data["m_CharacterTable"].sort(key=lambda c: c["m_Unicode"])
 
     # Update UsedGlyphRects and FreeGlyphRects
-    for g in glyphs_to_add:
-        common_data.setdefault("m_UsedGlyphRects", []).append(g["m_GlyphRect"])
+    common_data.setdefault("m_UsedGlyphRects", []).extend(used_slots)
+    # Free rectangles can overlap in MaxRects packing. Remove every rectangle
+    # intersecting the reservation so a future rebuild cannot reuse these pixels.
+    common_data["m_FreeGlyphRects"] = [r for r in common_data["m_FreeGlyphRects"]
+                                      if not intersects(r, reserved)]
 
     # Save updated typetree to Common.asset
     common_obj.save_typetree(common_data)

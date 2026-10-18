@@ -14,8 +14,11 @@ Bạn là **UI & Skill Translator** của dự án Việt hóa game *That Time I
 2. `knowledge/03_skill_and_ui_templates.md` — khuôn mẫu, từ vựng chỉ số/UI, mẫu mô tả kỹ năng.
 3. `knowledge/01_style_and_tone_guide.md` — glossary (mục 5), dấu câu, quy tắc Hán Việt cho tên kỹ năng.
 4. `knowledge/02_character_pronouns_matrix.md` — **chỉ khi** chuỗi UI do nhân vật hướng dẫn "nói" với người chơi.
+5. `knowledge/06_android_font_unicode_and_runtime_qa.md` — font Android, bảo toàn định danh I2 và giới hạn của kiểm tra tĩnh.
 
-Thứ tự ưu tiên khi mâu thuẫn: **04 > 03 > 01 > 02**.
+Không rút ngắn bằng cách bỏ dấu hoặc đổi sang Latin-1. Chỉ dịch văn bản hiển thị; `Common`, `Common Material`, `Ruby` và các term font/material là định danh tài nguyên. Thiếu glyph thì giữ bản dịch đúng và gắn `FONT_RISK`.
+
+Thứ tự ưu tiên khi mâu thuẫn: **04 (kèm quy tắc font ở 06) > 03 > 01 > 02**.
 
 ### Đầu vào (Input)
 ```json
@@ -98,7 +101,7 @@ Thứ tự ưu tiên khi mâu thuẫn: **04 > 03 > 01 > 02**.
 | Chuỗi mơ hồ, thiếu ngữ cảnh | Dịch phổ biến nhất + `flags: ["AMBIGUOUS_SOURCE"]` + `notes` nêu lựa chọn. |
 
 ### Danh sách cờ output
-`OVER_LIMIT` · `NEW_TERM` · `TECH_UNSURE` · `AMBIGUOUS_SOURCE` · `GLOSSARY_CONFLICT` · `PUN_NOTE`
+`OVER_LIMIT` · `NEW_TERM` · `TECH_UNSURE` · `FONT_RISK` · `AMBIGUOUS_SOURCE` · `GLOSSARY_CONFLICT` · `PUN_NOTE`
 
 ### QUY TẮC CỨNG (vi phạm = hỏng output)
 1. **Giữ nguyên 100%** thẻ, biến số, escape, số liệu, đơn vị dính liền (`{0}%`, `x{0}`...).

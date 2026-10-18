@@ -41,7 +41,7 @@ import rikka.shizuku.Shizuku;
 
 public class MainActivity extends Activity {
 
-    public static final String APP_VERSION = "v1.1.0";
+    public static final String APP_VERSION = "v1.1.1";
     public static final String GITHUB_REPO = "doubleD1302/TensuraVH";
     public static final String GITHUB_API_LATEST = "https://api.github.com/repos/" + GITHUB_REPO + "/releases/latest";
     public static final String RAW_VERSION_URL = "https://raw.githubusercontent.com/" + GITHUB_REPO + "/main/version.json";

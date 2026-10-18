@@ -5749,7 +5749,7 @@
     "en": "Courage",
     "ja": "勇",
     "zh": "勇",
-    "vi": "Lòng can đảm"
+    "vi": "Lòng Dũng Cảm"
   },
   {
     "id": 719,
@@ -7765,7 +7765,7 @@
     "en": "Trade using Bazaar Points?",
     "ja": "交換Ptを使用して交換します。\nよろしいですか？",
     "zh": "確定要使用交換Pt\n進行交換嗎？",
-    "vi": "Giao dịch bằng cách sử dụng Điểm Bazaar?"
+    "vi": "Giao dịch bằng Điểm Đổi Thưởng?"
   },
   {
     "id": 971,
@@ -7885,7 +7885,7 @@
     "en": "Converted expired Bazaar Points into xxxx.",
     "ja": "使用期限の終了した交換Ptをxxxxに変換しました",
     "zh": "已將使用期限結束的交換Pt轉換成xxxx。",
-    "vi": "Đã chuyển đổi Điểm Bazaar đã hết hạn thành xxxx."
+    "vi": "Đã quy đổi Điểm Đổi Thưởng hết hạn thành xxxx."
   },
   {
     "id": 986,
@@ -9365,7 +9365,7 @@
     "en": "Converted expired Bazaar Points into Seeds of Growth.",
     "ja": "使用期限の終了した交換Ptを成長の種に変換しました",
     "zh": "已將使用期限結束的交換Pt轉換成成長種子。",
-    "vi": "Chuyển đổi Điểm Bazaar đã hết hạn thành Hạt giống tăng trưởng."
+    "vi": "Đã quy đổi Điểm Đổi Thưởng hết hạn thành Hạt Giống Trưởng Thành."
   },
   {
     "id": 1171,
@@ -11837,7 +11837,7 @@
     "en": "* Obtain Vitality healing potion to restore.",
     "ja": "※行動回復薬を入手すると回復可能です。",
     "zh": "※獲得行動回復藥就可進行回復。",
-    "vi": "* Obtain Thể lực healing potion to restore."
+    "vi": "* Có thể hồi phục khi nhận được Thuốc Hồi Thể Lực."
   },
   {
     "id": 1480,
@@ -11877,7 +11877,7 @@
     "en": "Equipment Effect 1",
     "ja": "装備効果1",
     "zh": "裝備效果1",
-    "vi": "Trang bị Effect 1"
+    "vi": "Hiệu Ứng Trang Bị 1"
   },
   {
     "id": 1485,
@@ -11885,7 +11885,7 @@
     "en": "Equipment Effect 2",
     "ja": "装備効果2",
     "zh": "裝備效果2",
-    "vi": "Trang bị Effect 2"
+    "vi": "Hiệu Ứng Trang Bị 2"
   },
   {
     "id": 1486,
@@ -11893,7 +11893,7 @@
     "en": "Equipment Effect 3",
     "ja": "装備効果3",
     "zh": "裝備效果3",
-    "vi": "Trang bị Effect 3"
+    "vi": "Hiệu Ứng Trang Bị 3"
   },
   {
     "id": 1487,
@@ -11949,7 +11949,7 @@
     "en": "Recover Right to Fight (Valor Cup)",
     "ja": "挑戦権(英傑杯)回復",
     "zh": "回復挑戰權（英傑盃）",
-    "vi": "Recover Right to Fight (Cúp Anh Kiệt)"
+    "vi": "Hồi Phục Quyền Khiêu Chiến (Cúp Anh Kiệt)"
   },
   {
     "id": 1494,
@@ -11997,7 +11997,7 @@
     "en": "Reward for Winning",
     "ja": "勝利で獲得",
     "zh": "獲勝獲得",
-    "vi": "Phần thưởng for Winning"
+    "vi": "Phần Thưởng Chiến Thắng"
   },
   {
     "id": 1500,
@@ -12245,7 +12245,7 @@
     "en": "Confirm All EX Ability Effects",
     "ja": "全EX才能効果確認",
     "zh": "全EX才能效果確認",
-    "vi": "Xác nhận All EX Ability Effects"
+    "vi": "Xác Nhận Toàn Bộ Hiệu Ứng Năng Lực EX"
   },
   {
     "id": 1531,
@@ -12757,7 +12757,7 @@
     "en": "Enhancement Effect Details",
     "ja": "強化効果詳細",
     "zh": "強化效果詳情",
-    "vi": "Enhancement Effect Chi tiết"
+    "vi": "Chi Tiết Hiệu Ứng Cường Hóa"
   },
   {
     "id": 1595,
@@ -13045,7 +13045,7 @@
     "en": "Go to <color=#f7e416>Magic Circle of same color</color>",
     "ja": "<color=#f7e416>同色の魔法陣</color>に移動",
     "zh": "移動至<color=#f7e416>同色魔法陣</color>",
-    "vi": "Go to <color=#f7e416>Ma pháp Circle of same color</color>"
+    "vi": "Di chuyển đến <color=#f7e416>Vòng Ma Pháp Cùng Màu</color>"
   },
   {
     "id": 1631,
@@ -13109,7 +13109,7 @@
     "en": "Use the above materials to keep reforging until equipment reaches its <color=#ed4b39>max value</color> or <color=#ed4b39>materials run out</color>?",
     "ja": "上記の素材を使用し、途中で<color=#ed4b39>最大値</color>になるか<color=#ed4b39>素材が無くなる</color>まで打ち直しを行います。\nよろしいですか？",
     "zh": "使用以上素材，直到<color=#ed4b39>上限值</color>或是<color=#ed4b39>素材耗盡</color>為止。\n確定重新鍛造嗎？",
-    "vi": "Sử dụng the above materials to keep reforging until equipment reaches its <color=#ed4b39>max value</color> or <color=#ed4b39>materials run out</color>?"
+    "vi": "Sử dụng các nguyên liệu trên để liên tục rèn lại cho đến khi chỉ số đạt <color=#ed4b39>tối đa</color> hoặc <color=#ed4b39>hết nguyên liệu</color>?"
   },
   {
     "id": 1639,
@@ -13173,7 +13173,7 @@
     "en": "Equipment reached its max value. Reforging ended.",
     "ja": "最大値に達したため終了しました",
     "zh": "由於已達上限值，因此結束重新鍛造。",
-    "vi": "Trang bị reached its max value. Reforging ended."
+    "vi": "Trang bị đã đạt giá trị tối đa. Kết thúc rèn lại."
   },
   {
     "id": 1647,
@@ -13773,7 +13773,7 @@
     "en": "Bonus Reward Successfully Obtained",
     "ja": "ボーナス報酬獲得成功",
     "zh": "成功獲得獎勵報酬",
-    "vi": "Bonus Phần thưởng Successfully Obtained"
+    "vi": "Nhận Phần Thưởng Thêm Thành Công"
   },
   {
     "id": 1722,
@@ -13845,7 +13845,7 @@
     "en": "* No magicrystals are consumed in the Valor Cup.",
     "ja": "※英傑杯では魔晶石は消費されません。",
     "zh": "※英傑盃不會消耗魔晶石。",
-    "vi": "* No magicrystals are consumed in the Cúp Anh Kiệt."
+    "vi": "* Không tiêu hao Ma Tinh Thạch trong Cúp Anh Kiệt."
   },
   {
     "id": 1731,
@@ -14189,7 +14189,7 @@
     "en": "First Rank Increase Reward",
     "ja": "初回昇格報酬",
     "zh": "首次升級報酬",
-    "vi": "First Rank Increase Phần thưởng"
+    "vi": "Phần Thưởng Lên Hạng Lần Đầu"
   },
   {
     "id": 1774,
@@ -14213,7 +14213,7 @@
     "en": "End of Season Rewards",
     "ja": "シーズン終了時報酬",
     "zh": "賽季結束時報酬",
-    "vi": "End of Season Phần thưởng"
+    "vi": "Phần Thưởng Kết Thúc Mùa Giải"
   },
   {
     "id": 1777,
@@ -14421,7 +14421,7 @@
     "en": "Change Equipment",
     "ja": "装備変更",
     "zh": "變更裝備",
-    "vi": "Change Trang bị"
+    "vi": "Thay Đổi Trang Bị"
   },
   {
     "id": 1803,
@@ -14629,7 +14629,7 @@
     "en": "Use the above materials to evolve charm?",
     "ja": "上記の素材を使用し刻印符を進化します。\nよろしいですか？",
     "zh": "確定要使用\n以上素材進化刻印符嗎？",
-    "vi": "Sử dụng the above materials to evolve charm?"
+    "vi": "Sử dụng các nguyên liệu trên để tiến hóa Khắc Ấn Phù?"
   },
   {
     "id": 1829,
@@ -14653,7 +14653,7 @@
     "en": "- Pre-Evolution Charm Effects -",
     "ja": "- 進化前の刻印符効果 -",
     "zh": "- 進化前的刻印符效果 -",
-    "vi": "- Pre-Tiến hóa Charm Effects -"
+    "vi": "- Hiệu Ứng Khắc Ấn Phù Trước Tiến Hóa -"
   },
   {
     "id": 1832,
@@ -14685,7 +14685,7 @@
     "en": "Confirm Reset",
     "ja": "リセット確認",
     "zh": "重置確認",
-    "vi": "Xác nhận Reset"
+    "vi": "Xác Nhận Đặt Lại"
   },
   {
     "id": 1836,
@@ -14749,7 +14749,7 @@
     "en": "Use the above materials to enhance?",
     "ja": "上記の素材を使用し強化を行います。\nよろしいですか？",
     "zh": "確定要使用\n以上素材強化嗎？",
-    "vi": "Sử dụng the above materials to enhance?"
+    "vi": "Sử dụng các nguyên liệu trên để cường hóa?"
   },
   {
     "id": 1844,
@@ -14845,7 +14845,7 @@
     "en": "Valor Cup Right to Fight Recovery Notification",
     "ja": "英傑杯 挑戦権回復通知",
     "zh": "英傑盃 挑戰權回復通知",
-    "vi": "Cúp Anh Kiệt Right to Fight Recovery Notification"
+    "vi": "Thông Báo Hồi Phục Lượt Khiêu Chiến Cúp Anh Kiệt"
   },
   {
     "id": 1856,
@@ -15965,7 +15965,7 @@
     "en": "Valor Cup Effect",
     "ja": "英傑杯効果",
     "zh": "英傑盃效果",
-    "vi": "Cúp Anh Kiệt Effect"
+    "vi": "Hiệu Ứng Cúp Anh Kiệt"
   },
   {
     "id": 1996,
@@ -15981,7 +15981,7 @@
     "en": "Confirm Selected Items",
     "ja": "選択したアイテムの確認",
     "zh": "確認選擇的道具",
-    "vi": "Xác nhận Selected Items"
+    "vi": "Xác Nhận Vật Phẩm Đã Chọn"
   },
   {
     "id": 1998,
@@ -16701,7 +16701,7 @@
     "en": "Confirm Status",
     "ja": "状態確認",
     "zh": "狀態確認",
-    "vi": "Xác nhận Status"
+    "vi": "Xác Nhận Trạng Thái"
   },
   {
     "id": 2088,
@@ -17021,7 +17021,7 @@
     "en": "Confirm Limit",
     "ja": "制限確認",
     "zh": "確認限制",
-    "vi": "Xác nhận Limit"
+    "vi": "Xác Nhận Giới Hạn"
   },
   {
     "id": 2128,
@@ -19461,7 +19461,7 @@
     "en": "Confirm Resonance Change",
     "ja": "共鳴変化確認",
     "zh": "共鳴變化確認",
-    "vi": "Xác nhận Resonance Change"
+    "vi": "Xác Nhận Đổi Cộng Hưởng"
   },
   {
     "id": 2433,
@@ -19477,7 +19477,7 @@
     "en": "Use materials to change the resonance of a charm.\n<color=#f7e416>Materials halved for each charm's first resonance change.</color>",
     "ja": "素材を消費して刻印符を共鳴変化させます\n<color=#f7e416>各刻印符ごとに初回のみ消費素材半分</color>",
     "zh": "消耗素材可將刻印符賦予共鳴變化\n <color=#f7e416>每個刻印符的首次消耗素材減半</color>",
-    "vi": "Sử dụng materials to change the resonance of a charm.\n<color=#f7e416>Materials halved for each charm's first resonance change.</color>"
+    "vi": "Tiêu hao nguyên liệu để đổi Cộng Hưởng cho Khắc Ấn Phù.\n<color=#f7e416>Giảm nửa nguyên liệu tiêu hao cho lần đổi Cộng Hưởng đầu tiên của mỗi Khắc Ấn Phù.</color>"
   },
   {
     "id": 2435,
@@ -19493,7 +19493,7 @@
     "en": "Confirm Resonance Change Overwrite",
     "ja": "共鳴変化上書き確認",
     "zh": "共鳴變化覆蓋確認",
-    "vi": "Xác nhận Resonance Change Overwrite"
+    "vi": "Xác Nhận Ghi Đè Đổi Cộng Hưởng"
   },
   {
     "id": 2437,
@@ -19917,7 +19917,7 @@
     "en": "* Stamina consumption changes based on the number held in a day.",
     "ja": "※スタミナ消費数は1日の実行回数で変化します",
     "zh": "※體力消耗量會根據1天的執行次數變化",
-    "vi": "* Thể lực consumption changes based on the number held in a day."
+    "vi": "* Lượng Thể Lực tiêu hao sẽ thay đổi tùy theo số lượt thực hiện trong ngày."
   },
   {
     "id": 2490,
@@ -20829,7 +20829,7 @@
     "en": "Union Shop",
     "ja": "連合商店",
     "zh": "聯合商店",
-    "vi": "Union Cửa hàng"
+    "vi": "Cửa Hàng Liên Minh"
   },
   {
     "id": 2604,
@@ -20885,7 +20885,7 @@
     "en": "Union Login Bonus",
     "ja": "連合ログインボーナス",
     "zh": "聯合登入獎勵",
-    "vi": "Union Quà đăng nhập"
+    "vi": "Thưởng Đăng Nhập Liên Minh"
   },
   {
     "id": 2611,
@@ -20893,7 +20893,7 @@
     "en": "Union Level-Up Rewards",
     "ja": "連合Lvアップ報酬",
     "zh": "聯合Lv升級報酬",
-    "vi": "Union Level-Up Phần thưởng"
+    "vi": "Phần Thưởng Tăng Cấp Liên Minh"
   },
   {
     "id": 2612,
@@ -21053,7 +21053,7 @@
     "en": "Sworn Friends/Chancellor Union Members who sent aid",
     "ja": "救援してくれた盟友・盟主連合員",
     "zh": "支援過我方的盟友、盟主聯合成員",
-    "vi": "Sworn Bạn bè/Chancellor Union Members who sent aid"
+    "vi": "Đồng Minh / Thành viên Liên Minh đã viện trợ"
   },
   {
     "id": 2632,
@@ -21357,7 +21357,7 @@
     "en": "Next Chancellor Union Level Reward",
     "ja": "次の盟主連合Lv報酬",
     "zh": "下一個盟主聯合Lv報酬",
-    "vi": "Tiếp Chancellor Union Level Phần thưởng"
+    "vi": "Phần Thưởng Cấp Liên Minh Tiếp Theo"
   },
   {
     "id": 2670,
@@ -21765,7 +21765,7 @@
     "en": "Confirm Barrier Stone Activation",
     "ja": "結界石発動確認",
     "zh": "確認結界石發動",
-    "vi": "Xác nhận Barrier Stone Activation"
+    "vi": "Xác Nhận Kích Hoạt Đá Kết Giới"
   },
   {
     "id": 2721,
@@ -21773,7 +21773,7 @@
     "en": "Completed Level Reward",
     "ja": "達成連合Lv報酬",
     "zh": "達成聯合Lv報酬",
-    "vi": "Completed Level Phần thưởng"
+    "vi": "Phần Thưởng Tầng Đã Vượt"
   },
   {
     "id": 2722,
@@ -22069,7 +22069,7 @@
     "en": "By clearing Development Quests, the above facility has been unlocked.",
     "ja": "開拓クエストをクリアしたことで、\n以上の施設が解放されました。",
     "zh": "由於達成了開拓任務\n已解鎖以上設施。",
-    "vi": "By clearing Development Nhiệm vụ, the above facility has been unlocked."
+    "vi": "Nhờ hoàn thành Nhiệm Vụ Khai Thác, công trình trên đã được mở khóa."
   },
   {
     "id": 2759,
@@ -22077,7 +22077,7 @@
     "en": "Use the above materials for enchantment?",
     "ja": "上記の素材を使用し魔装備化を行います。\nよろしいですか？",
     "zh": "確定要使用上述的素材進行魔裝備化嗎？\n",
-    "vi": "Sử dụng the above materials for enchantment?"
+    "vi": "Sử dụng các nguyên liệu trên để Ma Trang Hóa?"
   },
   {
     "id": 2760,
@@ -22085,7 +22085,7 @@
     "en": "Cancel without updating enchantment effects?\n* Materials and gold coins spent will not be refunded.",
     "ja": "魔装備化効果を更新せずに終了します。よろしいですか？\n※消費した素材・金貨は戻ってきません",
     "zh": "確定不更新魔裝備化效果並結束嗎？\n※消耗的素材、金幣將無法返還。",
-    "vi": "Hủy without updating enchantment effects?\n* Materials and gold coins spent will not be refunded."
+    "vi": "Hủy mà không cập nhật hiệu ứng Ma Trang Hóa?\n* Nguyên liệu và tiền vàng đã tiêu hao sẽ không được hoàn lại."
   },
   {
     "id": 2761,
@@ -22149,7 +22149,7 @@
     "en": "Effect Details",
     "ja": "効果詳細",
     "zh": "效果詳情",
-    "vi": "Effect Chi tiết"
+    "vi": "Chi Tiết Hiệu Ứng"
   },
   {
     "id": 2769,
@@ -22229,7 +22229,7 @@
     "en": "Cancel Enchantment",
     "ja": "魔装備化キャンセル",
     "zh": "取消魔裝備化",
-    "vi": "Hủy Enchantment"
+    "vi": "Hủy Ma Trang Hóa"
   },
   {
     "id": 2779,
@@ -22245,7 +22245,7 @@
     "en": "Confirm Enchantment",
     "ja": "魔装備化確認",
     "zh": "魔裝備化確認",
-    "vi": "Xác nhận Enchantment"
+    "vi": "Xác Nhận Ma Trang Hóa"
   },
   {
     "id": 2781,
@@ -22269,7 +22269,7 @@
     "en": "Confirm Enchantment",
     "ja": "魔装備化実行確認",
     "zh": "魔裝備化執行確認",
-    "vi": "Xác nhận Enchantment"
+    "vi": "Xác Nhận Thực Hiện Ma Trang Hóa"
   },
   {
     "id": 2784,
@@ -22357,7 +22357,7 @@
     "en": "Confirm Re-Enchantment",
     "ja": "魔装備化再実行確認",
     "zh": "魔裝備化再次執行確認",
-    "vi": "Xác nhận Re-Enchantment"
+    "vi": "Xác Nhận Tái Thực Hiện Ma Trang Hóa"
   },
   {
     "id": 2795,
@@ -22365,7 +22365,7 @@
     "en": "Use the above materials to try again with the same attack type?",
     "ja": "上記の素材を使用し同じ攻撃タイプで再実行します。 \nよろしいですか？",
     "zh": "確定要使用上述的素材並以相同的攻擊類型再次進行嗎？\n",
-    "vi": "Sử dụng the above materials to try again with the same attack type?"
+    "vi": "Sử dụng các nguyên liệu trên để thử lại với cùng loại tấn công?"
   },
   {
     "id": 2796,
@@ -22581,7 +22581,7 @@
     "en": "Enchantment Not Awakened",
     "ja": "魔装備化未覚醒",
     "zh": "魔裝備化未覺醒",
-    "vi": "Enchantment Not Thức tỉnh"
+    "vi": "Chưa Thức Tỉnh Ma Trang Hóa"
   },
   {
     "id": 2823,
@@ -22629,7 +22629,7 @@
     "en": "Cannot Enchant (Pre-Awakening)",
     "ja": "魔装備化不可（未覚醒）",
     "zh": "無法魔裝備化（未覺醒）",
-    "vi": "Cannot Enchant (Pre-Thức tỉnh)"
+    "vi": "Không Thể Ma Trang Hóa (Chưa Thức Tỉnh)"
   },
   {
     "id": 2829,
@@ -23005,7 +23005,7 @@
     "en": "Enchantment Complete (Magic)",
     "ja": "魔装備化完了(魔法)",
     "zh": "魔裝備化完成（魔法）",
-    "vi": "Enchantment Complete (Ma pháp)"
+    "vi": "Ma Trang Hóa Hoàn Tất (Phép Thuật)"
   },
   {
     "id": 2876,
@@ -23021,7 +23021,7 @@
     "en": "Next Union Lv. Milestone Reward",
     "ja": "次の連合Lv達成報酬",
     "zh": "下一個聯合Lv達標報酬",
-    "vi": "Tiếp Union Lv. Milestone Phần thưởng"
+    "vi": "Phần Thưởng Cột Mốc Cấp Liên Minh Kế Tiếp"
   },
   {
     "id": 2878,
@@ -23029,7 +23029,7 @@
     "en": "Union Lv. Milestone Reward",
     "ja": "連合Lv達成報酬",
     "zh": "聯合Lv達標報酬",
-    "vi": "Union Lv. Milestone Phần thưởng"
+    "vi": "Phần Thưởng Cột Mốc Cấp Liên Minh"
   },
   {
     "id": 2879,
@@ -23101,7 +23101,7 @@
     "en": "* You cannot receive rewards for events you have not participated in.\n* Rewards are available for ten days after the event period.",
     "ja": "※参加していないイベントの報酬は受け取れません。\n※報酬の受け取りはイベントの開催期間から10日以内です。",
     "zh": "※無法領取未參加的活動的報酬。\n※報酬僅可在活動舉行期間的10天內領取。",
-    "vi": "* You cannot receive rewards for events you have not participated in.\n* Phần thưởng are available for ten days after the event period."
+    "vi": "* Không thể nhận phần thưởng của sự kiện chưa tham gia.\n* Phần thưởng chỉ có thể nhận trong vòng 10 ngày kể từ khi kết thúc sự kiện."
   },
   {
     "id": 2888,
@@ -23109,7 +23109,7 @@
     "en": "No usable barrier stones.\nBarrier stones can be obtained from Dragon Sphere Analysis and the Union Coin Bazaar (Union Shop).",
     "ja": "使用できる結界石がありません。\n結界石は竜珠解析や連合コイン交換所(連合商店)で入手できます。",
     "zh": "沒有可使用的結界石。\n結界石可在龍珠解析和聯合硬幣交換所(聯合商店)獲得。",
-    "vi": "No usable barrier stones.\nBarrier stones can be obtained from Dragon Sphere Analysis and the Union Coin Bazaar (Union Cửa hàng)."
+    "vi": "Không có Đá Kết Giới khả dụng.\nCó thể nhận Đá Kết Giới từ Phân Tích Long Châu và Điểm Đổi Xu Liên Minh (Cửa Hàng Liên Minh)."
   },
   {
     "id": 2889,
@@ -23125,7 +23125,7 @@
     "en": "Enchantment Status",
     "ja": "魔装備化状況",
     "zh": "魔裝備化狀況",
-    "vi": "Số lần khiêu chiến Cúp Anh Kiệt không đủ.\nHồi phục số lần khiêu chiến?\n<color=#ed4b39>(Cần Lượt Khiêu Chiến: {0})</color>"
+    "vi": "Tình Trạng Ma Trang Hóa"
   },
   {
     "id": 2891,
@@ -23141,7 +23141,7 @@
     "en": "No one to request aid from.\nYou cannot request aid.",
     "ja": "救援要請対象がいないため\n救援要請を送ることができません。",
     "zh": "沒有請求支援的對象\n因此無法發送支援請求。",
-    "vi": "Trong <color=#39D09C>Trận Đua Bảng Xếp Hạng Cúp Anh Kiệt</color>, hiệu ứng sau sẽ được kích hoạt cho cả bạn và đối thủ."
+    "vi": "Không có đối tượng để yêu cầu viện trợ.\nBạn không thể gửi yêu cầu viện trợ."
   },
   {
     "id": 2893,
@@ -23149,7 +23149,7 @@
     "en": "* Barrier stone effects apply beneficial effects at the start of battle. \n* If barrier stone effects overlap, the higher value effect will be applied.",
     "ja": "※結界石効果はバトル開始時点で有効な効果が適用されます。\n※結界石の効果が重複している場合、どちらか高いほうの効果が有効になります。",
     "zh": "※結界石效果將在戰鬥開始時適用有效的效果。\n※若結界石效果重複的情況下，則較高的效果將會生效。",
-    "vi": "Trong <color=#39D09C>các trận đấu thường Cúp Anh Kiệt</color>, hiệu ứng sau sẽ được kích hoạt cho cả bạn và đối thủ."
+    "vi": "* Hiệu ứng Đá Kết Giới sẽ có tác dụng ngay khi trận chiến bắt đầu.\n* Nếu các hiệu ứng Đá Kết Giới bị trùng lặp, hiệu ứng có giá trị cao hơn sẽ được áp dụng."
   },
   {
     "id": 2894,
@@ -23221,7 +23221,7 @@
     "en": "Skip Start Animations on Retrying Battle",
     "ja": "再戦時バトル開始演出スキップ",
     "zh": "跳過再次戰鬥時的戰鬥開始演出",
-    "vi": "Bỏ qua Bắt đầu Animations on Retrying Battle"
+    "vi": "Bỏ Qua Hoạt Ảnh Khi Khiêu Chiến Lại Trận Đấu"
   },
   {
     "id": 2903,
@@ -23333,7 +23333,7 @@
     "en": "Retry battle from beginning?",
     "ja": "戦闘を最初から再挑戦しますか？",
     "zh": "是否要從戰鬥一開始再次挑戰？",
-    "vi": "Thử lại battle from beginning?"
+    "vi": "Khiêu chiến lại trận đấu từ đầu?"
   },
   {
     "id": 2917,
@@ -23765,7 +23765,7 @@
     "en": "Battle Rewards",
     "ja": "戦闘報酬",
     "zh": "戰鬥報酬",
-    "vi": "Battle Phần thưởng"
+    "vi": "Phần Thưởng Trận Chiến"
   },
   {
     "id": 2971,
@@ -23933,7 +23933,7 @@
     "en": "Use the above materials to super evolve?",
     "ja": "上記の素材を使用し超進化を行います。\nよろしいですか？",
     "zh": "確定要使用\n以上素材超進化嗎？",
-    "vi": "Sử dụng the above materials to super evolve?"
+    "vi": "Sử dụng các nguyên liệu trên để Siêu Tiến Hóa?"
   },
   {
     "id": 2992,
@@ -24989,7 +24989,7 @@
     "en": "Tap Anywhere to Skip Battle Animations",
     "ja": "全画面タップでバトル演出スキップ",
     "zh": "點擊全畫面跳過戰鬥演示",
-    "vi": "Tap Anywhere to Bỏ qua Battle Animations"
+    "vi": "Chạm Màn Hình Để Bỏ Qua Hoạt Ảnh Trận Đấu"
   },
   {
     "id": 3124,
@@ -26133,7 +26133,7 @@
     "en": "You can acquire the following rewards again.\n-<color=#39D09C>First Rank Increase Rewards</color>",
     "ja": "以下の報酬が再度獲得可能になります\n・<color=#39D09C>初回昇格報酬</color>",
     "zh": "以下報酬可再次獲得\n‧<color=#39D09C>首次升級報酬</color>",
-    "vi": "You can acquire the following rewards again.\n-<color=#39D09C>First Rank Increase Phần thưởng</color>"
+    "vi": "Có thể nhận lại các phần thưởng sau:\n-<color=#39D09C>Phần Thưởng Lên Hạng Lần Đầu</color>"
   },
   {
     "id": 3267,
@@ -26149,7 +26149,7 @@
     "en": "Use charm with a charm effect level of <color=#39D09C>2</color> or more to reset?",
     "ja": "刻印符効果Lvが<color=#39D09C>２</color>以上の刻印符を使用してリセットを行います。\nよろしいですか？",
     "zh": "確定要使用\n刻印符效果Lv<color=#39D09C>2</color>以上的刻印符進行重置嗎？",
-    "vi": "Sử dụng charm with a charm effect level of <color=#39D09C>2</color> or more to reset?"
+    "vi": "Sử dụng Khắc Ấn Phù có hiệu ứng Cấp <color=#39D09C>2</color> trở lên để đặt lại?"
   },
   {
     "id": 3269,
@@ -26165,7 +26165,7 @@
     "en": "Use the above materials to unlock Heartprint?",
     "ja": "上記の素材を使用し、\n写心の解放を行います。\nよろしいですか？",
     "zh": "確定要使用\n以上素材\n解鎖寫心嗎？",
-    "vi": "Sử dụng the above materials to unlock Heartprint?"
+    "vi": "Sử dụng các nguyên liệu trên để mở khóa Tả Tâm?"
   },
   {
     "id": 3271,
@@ -26173,7 +26173,7 @@
     "en": "Use materials to change the resonance of a charm.\n<color=#F2EC4E>Materials halved for each charm's first resonance change.</color>",
     "ja": "素材を消費して刻印符を共鳴変化させます\n<color=#F2EC4E>各刻印符ごとに初回のみ消費素材半分</color>",
     "zh": "消耗素材可將刻印符賦予共鳴變化\n<color=#F2EC4E>每個刻印符的首次消耗素材減半</color>",
-    "vi": "Sử dụng materials to change the resonance of a charm.\n<color=#F2EC4E>Materials halved for each charm's first resonance change.</color>"
+    "vi": "Tiêu hao nguyên liệu để đổi Cộng Hưởng cho Khắc Ấn Phù.\n<color=#F2EC4E>Giảm nửa nguyên liệu tiêu hao cho lần đổi Cộng Hưởng đầu tiên của mỗi Khắc Ấn Phù.</color>"
   },
   {
     "id": 3272,
@@ -26237,7 +26237,7 @@
     "en": "Go to <color=#F2EC4E>Magic Circle of same color</color>",
     "ja": "<color=#F2EC4E>同色の魔法陣</color>に移動",
     "zh": "移動至<color=#F2EC4E>同色魔法陣</color>",
-    "vi": "Go to <color=#F2EC4E>Ma pháp Circle of same color</color>"
+    "vi": "Di chuyển đến <color=#F2EC4E>Vòng Ma Pháp Cùng Màu</color>"
   },
   {
     "id": 3280,
@@ -26717,7 +26717,7 @@
     "en": "No Quest currently available.",
     "ja": "開催中のクエストはありません",
     "zh": "沒有舉行中的任務",
-    "vi": "No Nhiệm vụ currently available."
+    "vi": "Hiện không có nhiệm vụ nào."
   },
   {
     "id": 3340,
@@ -26829,7 +26829,7 @@
     "en": "Effect Lv. Details",
     "ja": "効果Lv.詳細",
     "zh": "效果Lv.詳情",
-    "vi": "Effect Lv. Chi tiết"
+    "vi": "Chi Tiết Cấp Hiệu Ứng"
   },
   {
     "id": 3354,
@@ -26909,7 +26909,7 @@
     "en": "No Daily Quests available.",
     "ja": "挑戦可能なデイリークエストがありません",
     "zh": "沒有可進行挑戰的每日任務",
-    "vi": "No Daily Nhiệm vụ available."
+    "vi": "Không có Nhiệm Vụ Hàng Ngày khả dụng."
   },
   {
     "id": 3364,
@@ -27037,7 +27037,7 @@
     "en": "For this Ranking Battle Season, bonus points will be awarded for the following:",
     "ja": "今シーズンのランキング戦では以下のボーナススコアが発生します",
     "zh": "目前賽季的排名戰會獲得以下獎勵積分",
-    "vi": "For this Trận Đua Bảng Xếp Hạng Season, bonus points will be awarded for the following:"
+    "vi": "Trong mùa Trận Đua Bảng Xếp Hạng này, điểm thưởng sẽ được tính cho các mục sau:"
   },
   {
     "id": 3380,
@@ -27389,7 +27389,7 @@
     "en": "Use items to build right away!",
     "ja": "アイテムで即建築可能！",
     "zh": "可使用道具立即興建！",
-    "vi": "Sử dụng items to build right away!"
+    "vi": "Có thể dùng vật phẩm để xây dựng ngay!"
   },
   {
     "id": 3424,
@@ -27421,7 +27421,7 @@
     "en": "Use the above items to shorten construction time?",
     "ja": "上記のアイテムを使用し建築時間を短縮します。\nよろしいですか？",
     "zh": "確定要使用以上道具\n縮短興建時間嗎？",
-    "vi": "Sử dụng the above items to shorten construction time?"
+    "vi": "Sử dụng các vật phẩm trên để rút ngắn thời gian xây dựng?"
   },
   {
     "id": 3428,
@@ -28077,7 +28077,7 @@
     "en": "* Effects and other visuals shown represent the Max Awakened state",
     "ja": "※エフェクトなどの見た目は最大覚醒した状態です",
     "zh": "※特效等外型為覺醒至上限的狀態。",
-    "vi": "* Effects and other visuals shown represent the Max Thức tỉnh state"
+    "vi": "* Hình ảnh và hiệu ứng hiển thị là ở trạng thái Thức Tỉnh tối đa."
   },
   {
     "id": 3510,
@@ -29005,7 +29005,7 @@
     "en": "Points to Next Rank: {0:#,0}",
     "ja": "次のランクまで{0:#,0}",
     "zh": "至下個階級為止還有{0:#,0}",
-    "vi": "Points to Tiếp Rank: {0:#,0}"
+    "vi": "Điểm Đến Hạng Tiếp Theo: {0:#,0}"
   },
   {
     "id": 3626,
@@ -29061,7 +29061,7 @@
     "en": "Use {0} Magicrystals to continue?",
     "ja": "魔晶石を{0}個消費して\nコンティニューをしますか？",
     "zh": "確定要消耗{0}個魔晶石\n以繼續遊戲嗎？",
-    "vi": "Sử dụng {0} Magicrystals to continue?"
+    "vi": "Sử dụng {0} Ma Tinh Thạch để tiếp tục?"
   },
   {
     "id": 3633,
@@ -29181,7 +29181,7 @@
     "en": "You have <color=#2be41d>{0}</color> aid requests from Sworn Friends.",
     "ja": "盟友から救援要請が<color=#2be41d>{0}</color>件届いています",
     "zh": "有<color=#2be41d>{0}</color>件來自盟友的請求支援",
-    "vi": "You have <color=#2be41d>{0}</color> aid requests from Sworn Bạn bè."
+    "vi": "Bạn nhận được <color=#2be41d>{0}</color> yêu cầu viện trợ từ Đồng Minh."
   },
   {
     "id": 3648,
@@ -29221,7 +29221,7 @@
     "en": "Use {0} to exchange items?",
     "ja": "{0}を使用しアイテムと交換します。\nよろしいですか?",
     "zh": "確定要使用{0}\n交換道具嗎？",
-    "vi": "Sử dụng {0} to exchange items?"
+    "vi": "Sử dụng {0} để đổi vật phẩm?"
   },
   {
     "id": 3653,
@@ -29293,7 +29293,7 @@
     "en": "Use <color=#2be41d>{0}</color> Magicrystals to increase the limit on equipment held by <color=#2be41d>{1}</color>?",
     "ja": "魔晶石を<color=#2be41d>{0}個</color>使用して、装備品の所持数上限を<color=#2be41d>{1}</color>増やします。\nよろしいですか？",
     "zh": "確定要使用<color=#2be41d>{0}個</color>魔晶石，\n擴充裝備品持有數量的上限<color=#2be41d>{1}</color>嗎？",
-    "vi": "Sử dụng <color=#2be41d>{0}</color> Magicrystals to increase the limit on equipment held by <color=#2be41d>{1}</color>?"
+    "vi": "Sử dụng <color=#2be41d>{0}</color> Ma Tinh Thạch để mở rộng giới hạn trang bị thêm <color=#2be41d>{1}</color>?"
   },
   {
     "id": 3662,
@@ -29301,7 +29301,7 @@
     "en": "Use Magicrystal x<color=#2be41d>{0}</color> to increase the charm limit by <color=#2be41d>{1}</color>?",
     "ja": "魔晶石を<color=#2be41d>{0}個</color>使用して、刻印符の所持数上限を<color=#2be41d>{1}</color>増やします。\nよろしいですか？",
     "zh": "確定要使用<color=#2be41d>{0}個</color>魔晶石，\n擴充刻印符的可持有上限<color=#2be41d>{1}</color>嗎？",
-    "vi": "Sử dụng Magicrystal x<color=#2be41d>{0}</color> to increase the charm limit by <color=#2be41d>{1}</color>?"
+    "vi": "Sử dụng Ma Tinh Thạch x<color=#2be41d>{0}</color> để mở rộng giới hạn Khắc Ấn Phù thêm <color=#2be41d>{1}</color>?"
   },
   {
     "id": 3663,
@@ -29565,7 +29565,7 @@
     "en": "(Stamina Required: {0})",
     "ja": "（不足スタミナ:{0}）",
     "zh": "（不足體力：{0}）",
-    "vi": "(Thể lực Required: {0})"
+    "vi": "(Thể Lực Cần: {0})"
   },
   {
     "id": 3696,
@@ -29813,7 +29813,7 @@
     "en": "(Additional Vitality Required: {0})",
     "ja": "（不足行動力:{0}）",
     "zh": "（不足行動力：{0}）",
-    "vi": "(Additional Thể lực Required: {0})"
+    "vi": "(Thể Lực Bổ Sung Cần: {0})"
   },
   {
     "id": 3727,
@@ -30053,7 +30053,7 @@
     "en": "Stage Effect -Season {0}- Ranking Battle",
     "ja": "舞台効果 -シーズン{0}- ランキング戦",
     "zh": "英傑盃 -第{0}季- 排名戰",
-    "vi": "Stage Effect -Season {0}- Trận Đua Bảng Xếp Hạng"
+    "vi": "Hiệu Ứng Màn Đấu -Mùa {0}- Trận Đua Bảng Xếp Hạng"
   },
   {
     "id": 3757,
@@ -30085,7 +30085,7 @@
     "en": "Use Magicrystal x<color=#2be41d>{0:#,0}</color> to apply resonance change to this charm?",
     "ja": "魔晶石を<color=#2be41d>{0:#,0}個</color>消費して刻印符に共鳴変化を付与します\nよろしいですか？",
     "zh": "確定要消耗<color=#2be41d>{0:#,0}個</color>魔晶石\n賦予刻印符共鳴變化嗎？",
-    "vi": "Sử dụng Magicrystal x<color=#2be41d>{0:#,0}</color> to apply resonance change to this charm?"
+    "vi": "Sử dụng Ma Tinh Thạch x<color=#2be41d>{0:#,0}</color> để đổi Cộng Hưởng cho Khắc Ấn Phù này?"
   },
   {
     "id": 3761,
@@ -30213,7 +30213,7 @@
     "en": "Points to Next Rank: {0}",
     "ja": "次のランクまで{0}",
     "zh": "至下個階級為止還有{0}",
-    "vi": "Points to Tiếp Rank: {0}"
+    "vi": "Điểm Đến Hạng Tiếp Theo: {0}"
   },
   {
     "id": 3777,
@@ -30733,7 +30733,7 @@
     "en": "Use {0} Magicrystals to continue?",
     "ja": "魔晶石を{0}個消費してコンティニューをしますか？",
     "zh": "確定要消耗{0}個魔晶石接關進行遊戲嗎？",
-    "vi": "Sử dụng {0} Magicrystals to continue?"
+    "vi": "Sử dụng {0} Ma Tinh Thạch để tiếp tục?"
   },
   {
     "id": 3842,
@@ -30741,7 +30741,7 @@
     "en": "Insufficient Magicrystals. (Required: {0:#,0})\nGo to the Magicrystal Shop?",
     "ja": "魔晶石が不足しています。（必要数：{0:#,0}個）\n魔晶石購入画面へ移動しますか？",
     "zh": "魔晶石不足。（所需數量：{0:#,0}個）\n是否要移步至魔晶石購買畫面？",
-    "vi": "Insufficient Magicrystals. (Required: {0:#,0})\nGo to the Magicrystal Cửa hàng?"
+    "vi": "Không đủ Ma Tinh Thạch. (Cần: {0:#,0})\nChuyển đến Cửa Hàng Ma Tinh Thạch?"
   },
   {
     "id": 3843,
@@ -30781,7 +30781,7 @@
     "en": "End of Season {0} Rewards",
     "ja": "シーズン{0} 終了時報酬",
     "zh": "第{0}賽季結束時報酬",
-    "vi": "End of Season {0} Phần thưởng"
+    "vi": "Phần Thưởng Kết Thúc Mùa Giải {0}"
   },
   {
     "id": 3848,
@@ -30893,7 +30893,7 @@
     "en": "Use Magicrystal x<color=#39D09C>{0}</color> to increase the charm limit by <color=#39D09C>{1}</color>?",
     "ja": "魔晶石を<color=#39D09C>{0}個</color>使用して、刻印符の所持数上限を<color=#39D09C>{1}</color>増やします。\nよろしいですか？",
     "zh": "確定要使用<color=#39D09C>{0}個</color>魔晶石，\n擴充刻印符的可持有上限<color=#39D09C>{1}</color>嗎？",
-    "vi": "Sử dụng Magicrystal x<color=#39D09C>{0}</color> to increase the charm limit by <color=#39D09C>{1}</color>?"
+    "vi": "Sử dụng Ma Tinh Thạch x<color=#39D09C>{0}</color> để mở rộng giới hạn Khắc Ấn Phù thêm <color=#39D09C>{1}</color>?"
   },
   {
     "id": 3862,
@@ -30901,7 +30901,7 @@
     "en": "Use <color=#39D09C>{0}</color> Magicrystals to increase the equipment limit by <color=#39D09C>{1}</color>?",
     "ja": "魔晶石を<color=#39D09C>{0}個</color>使用して、装備品の所持数上限を<color=#39D09C>{1}</color>増やします。\nよろしいですか？",
     "zh": "確定要使用<color=#39D09C>{0}個</color>魔晶石，\n擴充裝備品的可持有上限<color=#39D09C>{1}</color>嗎？",
-    "vi": "Sử dụng <color=#39D09C>{0}</color> Magicrystals to increase the equipment limit by <color=#39D09C>{1}</color>?"
+    "vi": "Sử dụng <color=#39D09C>{0}</color> Ma Tinh Thạch để mở rộng giới hạn trang bị thêm <color=#39D09C>{1}</color>?"
   },
   {
     "id": 3863,
@@ -31045,7 +31045,7 @@
     "en": "You have <color=#39D09C>{0}</color> aid requests from Sworn Friends.",
     "ja": "盟友から救援要請が<color=#39D09C>{0}</color>件届いています",
     "zh": "有<color=#39D09C>{0}</color>件來自盟友的請求支援",
-    "vi": "You have <color=#39D09C>{0}</color> aid requests from Sworn Bạn bè."
+    "vi": "Bạn nhận được <color=#39D09C>{0}</color> yêu cầu viện trợ từ Đồng Minh."
   },
   {
     "id": 3881,

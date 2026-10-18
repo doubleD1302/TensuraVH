@@ -4,6 +4,8 @@
 > Một lỗi ở đây có thể làm **crash game, vỡ giao diện, hoặc mất hiển thị chữ**. Không có ngoại lệ "cho đẹp câu".
 > Dùng bởi: Agent 02, 03 (tuân thủ), Agent 04 (kiểm tra).
 
+> Với Unicode/font/import/build Android, đọc thêm [06 — Font tiếng Việt và QA runtime](06_android_font_unicode_and_runtime_qa.md). Không bỏ dấu để né ô vuông; không dùng kết quả kiểm tra file thay cho kiểm tra game đang chạy.
+
 ---
 
 ## 0. Nguyên tắc vàng
@@ -107,8 +109,8 @@ Nếu input xuất hiện thẻ **không có trong danh sách trên và không n
 ## 4. Mã hóa & Unicode (rất quan trọng với tiếng Việt)
 
 1. **UTF-8, không BOM** (trừ khi pipeline yêu cầu).
-2. **Chuẩn hóa Unicode: NFC** (dạng tổ hợp, ví dụ `ệ` là **một** ký tự U+1EC7). **Không** dùng NFD (chữ + dấu rời) vì nhiều font Unity/TMP sẽ hiển thị lỗi dấu.
-3. **Chỉ dùng ký tự có trong font Việt hóa của game.** Tránh ký tự hiếm: dấu nháy cong `“ ” ‘ ’`, dấu gạch dài `—`, `…` — nếu font không có sẽ hiện ô vuông. Mặc định dùng **dấu nháy thẳng** `" '` và gạch ngang `-`; dấu ba chấm dùng `...` (khớp file 01).
+2. **Chuẩn hóa Unicode: NFC**, kết hợp theo dạng chuẩn khi có thể, ví dụ `ệ` được lưu là U+1EC7. Không tự đổi pipeline sang NFD (chữ + dấu rời); phải kiểm chứng khả năng render của game nếu cần dùng dạng này.
+3. **Giữ đầy đủ dấu tiếng Việt.** Thiếu glyph thì giữ bản dịch đúng và gắn `FONT_RISK`; không đổi `đ → d`, `ệ → ê`, lọc ASCII/Latin-1 hoặc xóa dấu. Với dấu câu tùy chọn, mặc định dùng **dấu nháy thẳng** `" '`, gạch ngang `-`, dấu ba chấm `...` theo file 01; không tự sửa thẻ/placeholder hay ký tự kỹ thuật của bản gốc.
 4. Không dùng emoji trừ khi bản gốc có và font hỗ trợ.
 5. Không chèn ký tự vô hình (zero-width space, soft hyphen).
 6. Khi có ghi chú về font (ví dụ font TMP chưa hỗ trợ dấu Việt) → báo cờ `FONT_RISK`, đừng tự thay ký tự.
@@ -156,6 +158,8 @@ Nếu có **bất kỳ câu nào KHÔNG** → sửa lại. Không sửa được
 | `KEY_TRANSLATED` | Dịch key/ID/đường dẫn | BLOCKER |
 | `STRUCT_BROKEN` | Phá cấu trúc JSON/CSV, lệch số dòng | BLOCKER |
 | `ENC_NFD` | Chữ tiếng Việt không ở dạng NFC | MAJOR |
+| `TEXT_ACCENT_LOSS` | Bỏ/thay dấu để khớp font hoặc bộ mã hạn chế | BLOCKER |
+| `ASSET_IDENTIFIER_CHANGED` | Dịch nhầm term font/material hoặc định danh tài nguyên | BLOCKER |
 | `CHAR_RISK` | Ký tự có thể thiếu trong font | MAJOR |
 | `OVER_LIMIT` | Vượt giới hạn ký tự/dòng | MAJOR |
 | `WS_CHANGED` | Đổi khoảng trắng đầu/cuối hoặc trong thẻ | MINOR–MAJOR |

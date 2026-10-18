@@ -3,6 +3,9 @@ import sys
 import subprocess
 import shutil
 import zipfile
+from pathlib import Path
+from tools.font_pipeline import I2_PATH, ROOT, validate_bundle
+import json
 
 SDK_DIR = r"C:\Users\chann\AppData\Local\Android\Sdk"
 BUILD_TOOLS = os.path.join(SDK_DIR, "build-tools", "36.0.0")
@@ -23,7 +26,7 @@ def run_cmd(cmd, desc=""):
         raise RuntimeError(f"Command failed: {cmd}")
     return res.stdout
 
-def build(mod_data_path=None):
+def build(mod_data_path=None, output_path=None):
     base_dir = os.path.abspath("apk_builder")
     gen_dir = os.path.join(base_dir, "gen")
     classes_dir = os.path.join(base_dir, "classes")
@@ -31,10 +34,20 @@ def build(mod_data_path=None):
     res_zip = os.path.join(base_dir, "compiled_res.zip")
     unaligned_apk = os.path.join(base_dir, "unaligned.apk")
     aligned_apk = os.path.join(base_dir, "aligned.apk")
-    final_apk = os.path.abspath("Tensura_VietHoa_Shizuku.apk")
+    final_apk = os.path.abspath(output_path or "artifacts/fontfix-v1.1.1/Tensura_VietHoa_Shizuku_v1.1.1_unicode_preview.apk")
     keystore = os.path.join(base_dir, "debug.keystore")
 
+    mod_data_path = mod_data_path or os.path.join(base_dir, "assets", "mod", "__data")
+    if not os.path.isfile(mod_data_path):
+        raise FileNotFoundError(f"Missing localization payload: {mod_data_path}")
+    validate_bundle(mod_data_path, str(I2_PATH) + ".bak",
+                    json.loads((ROOT / "ui_terms.json").read_text(encoding="utf-8")))
+    os.makedirs(os.path.dirname(final_apk), exist_ok=True)
+
     for d in [gen_dir, classes_dir, dex_dir]:
+        resolved = Path(d).resolve()
+        if resolved.parent != Path(base_dir).resolve() or resolved.name not in {"gen", "classes", "dex"}:
+            raise ValueError(f"Unsafe intermediate build directory: {resolved}")
         if os.path.exists(d):
             shutil.rmtree(d)
         os.makedirs(d, exist_ok=True)
@@ -55,7 +68,7 @@ def build(mod_data_path=None):
     cp = f'"{ANDROID_JAR}";' + ";".join([f'"{lib}"' for lib in libs])
     java_sources = " ".join([f'"{f}"' for f in java_files])
     
-    run_cmd(f'javac -cp {cp} -d "{classes_dir}" --release 8 {java_sources}', "Compiling Java sources")
+    run_cmd(f'javac -encoding UTF-8 -cp {cp} -d "{classes_dir}" --release 8 {java_sources}', "Compiling Java sources")
 
     # 4. Convert classes and libs to DEX with d8
     all_class_files = []
@@ -71,17 +84,10 @@ def build(mod_data_path=None):
     print("==> Injecting DEX and mod assets into APK")
     dex_file = os.path.join(dex_dir, "classes.dex")
     
-    # If mod_data_path not passed, check default location
-    if not mod_data_path:
-        mod_data_path = r"com.bandainamcoent.tensuramrkww\files\UnityCache\Shared\baad181fc8596596149644262d31f2a6\b09686f380a54f90be924c34c81ea693\__data"
-
     with zipfile.ZipFile(unaligned_apk, 'a') as z:
         z.write(dex_file, "classes.dex")
-        if os.path.exists(mod_data_path):
-            print(f"Embedding patch asset ({os.path.getsize(mod_data_path)} bytes) from {mod_data_path}")
-            z.write(mod_data_path, "assets/mod/__data")
-        else:
-            print("WARNING: Mod data path not found! Empty placeholder used.")
+        print(f"Embedding verified Unicode text ({os.path.getsize(mod_data_path)} bytes) from {mod_data_path}")
+        z.write(mod_data_path, "assets/mod/__data")
 
     # 6. Zipalign
     if os.path.exists(aligned_apk):
@@ -97,6 +103,10 @@ def build(mod_data_path=None):
     if os.path.exists(final_apk):
         os.remove(final_apk)
     run_cmd(f'"{APKSIGNER}" sign --ks "{keystore}" --ks-pass pass:android --key-pass pass:android --out "{final_apk}" "{aligned_apk}"', "Signing APK")
+    run_cmd(f'"{APKSIGNER}" verify --verbose "{final_apk}"', "Verifying APK signature")
+    with zipfile.ZipFile(final_apk) as z:
+        if z.read("assets/mod/__data") != Path(mod_data_path).read_bytes():
+            raise ValueError("Signed APK does not contain the verified payload")
 
     print("\n" + "="*60)
     print(f"🎉 SUCCESS! APK built and signed successfully:")
@@ -106,4 +116,4 @@ def build(mod_data_path=None):
 
 if __name__ == '__main__':
     mod_path = sys.argv[1] if len(sys.argv) > 1 else None
-    build(mod_path)
+    build(mod_path, sys.argv[2] if len(sys.argv) > 2 else None)

@@ -10,6 +10,7 @@
 *.idsig
 
 # Intermediate build artifacts
+artifacts/
 apk_builder/classes/
 apk_builder/dex/
 apk_builder/gen/
@@ -31,3 +32,6 @@ tmp_repo/
 # Screenshots
 *.png
 *.jpg
+
+scratch/
+tensura_font_extracted/

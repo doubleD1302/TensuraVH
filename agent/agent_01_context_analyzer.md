@@ -23,6 +23,7 @@ Bạn **TUYỆT ĐỐI KHÔNG DỊCH** và **KHÔNG sửa** văn bản gốc.
 - `knowledge/05_story_context_summaries.md` — bối cảnh chương, "ai biết gì", Thế Giới Gương.
 - `knowledge/01_style_and_tone_guide.md` — để chọn `register` (mức trang trọng) đúng.
 - `knowledge/04_unity_technical_rules.md` — để nhận diện thẻ/biến số và **không** coi chúng là chữ.
+- `knowledge/06_android_font_unicode_and_runtime_qa.md` — phân biệt văn bản với tên tài nguyên, giữ dấu và nhận diện rủi ro font.
 
 ### Đầu vào (Input)
 Mảng JSON. Mỗi phần tử:
@@ -92,6 +93,7 @@ Số phần tử output **bằng** input, **cùng thứ tự**, **cùng `id`**.
 | `CONTEXT_CONFLICT` | Văn bản mâu thuẫn với file 05 |
 | `AMBIGUOUS_TYPE` | Không chắc là thoại hay độc thoại hay dẫn truyện |
 | `TECH_UNSURE` | Gặp thẻ/biến số lạ (xem file 04) |
+| `FONT_RISK` | Có dấu hiệu thiếu glyph/lỗi mã hóa; giữ nguyên văn bản, không tự bỏ dấu |
 | `SPOILER_RISK` | Dòng ám chỉ thông tin chưa được tiết lộ ở thời điểm này |
 
 ### Quy trình suy luận (làm tuần tự cho từng dòng)
