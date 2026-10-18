@@ -421,7 +421,7 @@
     "en": "Puppet Rondo",
     "ja": "Puppet Rondo",
     "zh": "Puppet Rondo",
-    "vi": "Con rối Rondo"
+    "vi": "Vũ Điệu Con Rối (Puppet Rondo)"
   },
   {
     "id": 53,
@@ -445,7 +445,7 @@
     "en": "Spirit Slayer",
     "ja": "Spirit Slayer",
     "zh": "Spirit Slayer",
-    "vi": "Kẻ giết linh hồn"
+    "vi": "Diệt Tinh Linh (Spirit Slayer)"
   },
   {
     "id": 56,
@@ -461,7 +461,7 @@
     "en": "Hell  Flare",
     "ja": "Hell  Flare",
     "zh": "Hell  Flare",
-    "vi": "Ngọn lửa địa ngục"
+    "vi": "Hắc Viêm Ngục (Hell Flare)"
   },
   {
     "id": 58,
@@ -477,7 +477,7 @@
     "en": "Detonating Flash",
     "ja": "Detonating Flash",
     "zh": "Detonating Flash",
-    "vi": "Đèn flash kích nổ"
+    "vi": "Bộc Liệt Thiểm Quang (Detonating Flash)"
   },
   {
     "id": 60,
@@ -613,7 +613,7 @@
     "en": "Haze: Thunder of Heaven and Earth",
     "ja": "Haze: Thunder of Heaven and Earth",
     "zh": "Haze: Thunder of Heaven and Earth",
-    "vi": "Haze: Sấm sét của trời và đất"
+    "vi": "Lung: Địa Thiên Oanh Lôi (Haze: Thunder of Heaven and Earth)"
   },
   {
     "id": 77,
@@ -661,7 +661,7 @@
     "en": "Spning Rush",
     "ja": "Spning Rush",
     "zh": "Spning Rush",
-    "vi": "Quay vội vàng"
+    "vi": "Xoay Tròn Đột Kích (Spinning Rush)"
   },
   {
     "id": 83,
@@ -669,7 +669,7 @@
     "en": "Spinning Rush",
     "ja": "Spinning Rush",
     "zh": "Spinning Rush",
-    "vi": "Quay vội vàng"
+    "vi": "Xoay Tròn Đột Kích (Spinning Rush)"
   },
   {
     "id": 84,
@@ -797,7 +797,7 @@
     "en": "Drago Buster",
     "ja": "Drago Buster",
     "zh": "Drago Buster",
-    "vi": "Buster Drago"
+    "vi": "Long Bộc Phá (Drago Buster)"
   },
   {
     "id": 100,
@@ -885,7 +885,7 @@
     "en": "Death Storm",
     "ja": "Death Storm",
     "zh": "Death Storm",
-    "vi": "Cơn bão tử thần"
+    "vi": "Phong Bạo Tử Thần (Death Storm)"
   },
   {
     "id": 111,
@@ -933,7 +933,7 @@
     "en": "Black Lightning",
     "ja": "Black Lightning",
     "zh": "Black Lightning",
-    "vi": "Tia sét đen"
+    "vi": "Hắc Lôi (Black Lightning)"
   },
   {
     "id": 117,
@@ -949,7 +949,7 @@
     "en": "Bind Hell Flare",
     "ja": "Bind Hell Flare",
     "zh": "Bind Hell Flare",
-    "vi": "Ngọn lửa địa ngục trói buộc"
+    "vi": "Hắc Viêm Ngục Trói Buộc (Bind Hell Flare)"
   },
   {
     "id": 119,
@@ -957,7 +957,7 @@
     "en": "Binding Hell Flare",
     "ja": "Binding Hell Flare",
     "zh": "Binding Hell Flare",
-    "vi": "Ngọn lửa địa ngục ràng buộc"
+    "vi": "Hắc Viêm Ngục Ràng Buộc (Binding Hell Flare)"
   },
   {
     "id": 120,
@@ -973,7 +973,7 @@
     "en": "Water Blade Torrent",
     "ja": "Water Blade Torrent",
     "zh": "Water Blade Torrent",
-    "vi": "Torrent lưỡi nước"
+    "vi": "Thủy Nhận Cuồng Lưu (Water Blade Torrent)"
   },
   {
     "id": 122,
@@ -1085,7 +1085,7 @@
     "en": "Chain of Blue Flames",
     "ja": "Chain of Blue Flames",
     "zh": "Chain of Blue Flames",
-    "vi": "Chuỗi ngọn lửa xanh"
+    "vi": "Lam Viêm Tỏa Liên (Chain of Blue Flames)"
   },
   {
     "id": 136,
@@ -1213,7 +1213,7 @@
     "en": "Aerial Blade",
     "ja": "Aerial Blade",
     "zh": "Aerial Blade",
-    "vi": "Lưỡi trên không"
+    "vi": "Không Gian Nhận (Aerial Blade)"
   },
   {
     "id": 152,
@@ -2253,7 +2253,7 @@
     "en": "Activate Predator",
     "ja": "捕食者発動",
     "zh": "發動捕食者",
-    "vi": "Kích hoạt động vật ăn thịt"
+    "vi": "Kích Hoạt Kẻ Săn Mồi"
   },
   {
     "id": 282,
@@ -2269,7 +2269,7 @@
     "en": "Predator Success Rate",
     "ja": "捕食成功確率：",
     "zh": "捕食成功機率：",
-    "vi": "Tỷ lệ thành công của động vật ăn thịt"
+    "vi": "Tỷ Lệ Thôn Phệ Thành Công:"
   },
   {
     "id": 284,
@@ -2277,7 +2277,7 @@
     "en": "Use unique skill \"Predator\"?",
     "ja": "ユニークスキル捕食者を発動しますか？",
     "zh": "是否發動獨有技「捕食者」？",
-    "vi": "Sử dụng kỹ năng độc đáo \"Kẻ săn mồi\"?"
+    "vi": "Sử dụng kỹ năng độc nhất \"Kẻ Săn Mồi\"?"
   },
   {
     "id": 285,
@@ -2285,7 +2285,7 @@
     "en": "Predator Rating",
     "ja": "捕食評価",
     "zh": "捕食評價",
-    "vi": "Xếp hạng động vật ăn thịt"
+    "vi": "Đánh Giá Thôn Phệ"
   },
   {
     "id": 286,
@@ -2357,7 +2357,7 @@
     "en": "Gold Coin",
     "ja": "金貨",
     "zh": "金幣",
-    "vi": "Đồng xu vàng"
+    "vi": "Tiền Vàng"
   },
   {
     "id": 295,
@@ -3341,7 +3341,7 @@
     "en": "Change Facility Appointment",
     "ja": "任命施設変更",
     "zh": "變更任命施設",
-    "vi": "Thay đổi cuộc hẹn của cơ sở"
+    "vi": "Thay Đổi Bổ Nhiệm Công Trình"
   },
   {
     "id": 418,
@@ -3413,7 +3413,7 @@
     "en": "No facilities to display.",
     "ja": "表示できる施設がありません",
     "zh": "沒有可顯示的設施。",
-    "vi": "Không có cơ sở để hiển thị."
+    "vi": "Không có công trình nào để hiển thị."
   },
   {
     "id": 427,
@@ -3437,7 +3437,7 @@
     "en": "suto-ri-wosusumeru\ntoaratanasisetugak\naihousaremasu.\n\nzyuuminnsuuwoh\nuyasutoryou\ndowokakudaide\nkimasu.\n\nryoudowokakudai\nsitemakok\nurennp\n\nouuwohattennsa\nseyou",
     "ja": "suto-ri-wosusumeru\ntoaratanasisetugak\naihousaremasu.\n\nzyuuminnsuuwoh\nuyasutoryou\ndowokakudaide\nkimasu.\n\nryoudowokakudai\nsitemakok\nurennp\n\nouuwohattennsa\nseyou",
     "zh": "suto-ri-wosusumeru\ntoaratanasisetugak\naihousaremasu.\n\nzyuuminnsuuwoh\nuyasutoryou\ndowokakudaide\nkimasu.\n\nryoudowokakudai\nsitemakok\nurennp\n\nouuwohattennsa\nseyou",
-    "vi": "suto-ri-wosusumeru\ntoaratanasisetugak\naihousaremasu.\n\nzyuuminnsuuwoh\nuyasutoryou\ndowokakudaide\nkimasu.\n\nryoudowokakudai\ntrang webmakok\nurennp\n\nouuwohattennsa\nseyou"
+    "vi": "Khi cốt truyện tiến triển,\ncác công trình mới sẽ được mở khóa.\n\nTăng số lượng cư dân\nsẽ giúp mở rộng lãnh thổ.\n\nHãy mở rộng lãnh thổ\nvà phát triển Liên Bang Ma Quốc!"
   },
   {
     "id": 430,
@@ -3445,7 +3445,7 @@
     "en": "As the story\nprogresses, new\nfacilities will be\nreleased.\n\nYou can expand\nyour territory by\nincreasing the\nnumber of\nresidents.\n\nExpand your\nterritory and\ndevelop the\nDemon Kingdom!",
     "ja": "As the story\nprogresses, new\nfacilities will be\nreleased.\n\nYou can expand\nyour territory by\nincreasing the\nnumber of\nresidents.\n\nExpand your\nterritory and\ndevelop the\nDemon Kingdom!",
     "zh": "As the story\nprogresses, new\nfacilities will be\nreleased.\n\nYou can expand\nyour territory by\nincreasing the\nnumber of\nresidents.\n\nExpand your\nterritory and\ndevelop the\nDemon Kingdom!",
-    "vi": "Như câu chuyện\ntiến bộ, mới\ncơ sở vật chất sẽ được\nđược thả ra.\n\nBạn có thể mở rộng\nlãnh thổ của bạn bằng cách\ntăng\nsố lượng\ncư dân.\n\nMở rộng của bạn\nlãnh thổ và\nphát triển\nVương quốc quỷ!"
+    "vi": "Khi cốt truyện\ntiến triển, các\ncông trình mới sẽ\nđược mở khóa.\n\nBạn có thể mở rộng\nlãnh thổ bằng cách\ntăng số lượng\ncư dân.\n\nHãy mở rộng lãnh thổ\nvà phát triển\nMa Quốc!"
   },
   {
     "id": 431,
@@ -3685,7 +3685,7 @@
     "en": "Store in the vault and reset the appointed character?",
     "ja": "保管庫に格納すると施設に任命されたキャラはリセットされます。\nよろしいですか？",
     "zh": "若收納至保管庫中，被任命的角色將受到重置。\n確定要執行嗎？",
-    "vi": "Lưu trữ trong kho tiền và đặt lại ký tự được chỉ định?"
+    "vi": "Khi đưa vào kho, nhân vật được bổ nhiệm vào công trình sẽ bị đặt lại.\nBạn có chắc chắn không?"
   },
   {
     "id": 461,
@@ -4853,7 +4853,7 @@
     "en": "The construction time has been shortened for facilities that received aid.",
     "ja": "救援を受けた施設の建築時間が短縮されました。",
     "zh": "接受支援的設施的興建時間已經縮短了。",
-    "vi": "Thời gian xây dựng đã được rút ngắn đối với các cơ sở nhận viện trợ."
+    "vi": "Thời gian xây dựng các công trình nhận được viện trợ đã được rút ngắn."
   },
   {
     "id": 607,
@@ -4989,7 +4989,7 @@
     "en": "Request aid to build your facility?",
     "ja": "施設の建築を支援してもらうよう救援を要請しますか？",
     "zh": "是否發送支援設施興建的請求？",
-    "vi": "Yêu cầu viện trợ để xây dựng cơ sở của bạn?"
+    "vi": "Yêu cầu viện trợ để xây dựng công trình của bạn?"
   },
   {
     "id": 624,
@@ -5189,7 +5189,7 @@
     "en": "Obtain from facilities in your nation.",
     "ja": "建国の施設から入手することができます",
     "zh": "可從建國的設施中獲得",
-    "vi": "Nhận từ các cơ sở ở quốc gia của bạn."
+    "vi": "Có thể nhận từ các công trình trong vương quốc."
   },
   {
     "id": 649,
@@ -5365,7 +5365,7 @@
     "en": "Get <size=42><color=#f7e416>Mega Bonus</color></size><size=36></size>",
     "ja": "<size=42><color=#f7e416>豪華報酬</color></size><size=36>を</size>GET",
     "zh": "<size=36>獲得</size><size=42><color=#f7e416>豪華報酬</color></size>",
-    "vi": "Nhận<size=42><color=#f7e416>Mega Bonus</color></size><size=36></size>"
+    "vi": "Nhận <size=42><color=#f7e416>Phần Thưởng Cực Lớn</color></size><size=36></size>"
   },
   {
     "id": 671,
@@ -5613,7 +5613,7 @@
     "en": "Facility Effect EP",
     "ja": "施設効果EP",
     "zh": "設施效果EP",
-    "vi": "Hiệu ứng cơ sở EP"
+    "vi": "EP Hiệu Ứng Công Trình"
   },
   {
     "id": 702,
@@ -6253,7 +6253,7 @@
     "en": "Unlocked new facility",
     "ja": "新たな施設の解放",
     "zh": "解鎖新設施",
-    "vi": "Đã mở khóa cơ sở mới"
+    "vi": "Mở Khóa Công Trình Mới"
   },
   {
     "id": 782,
@@ -6261,7 +6261,7 @@
     "en": "Unlocked by meeting a population achievement",
     "ja": "住民数達成による解放",
     "zh": "居民人數達標即可解鎖",
-    "vi": "Mở khóa bằng cách đáp ứng thành tích dân số"
+    "vi": "Mở khóa khi đạt mốc dân số"
   },
   {
     "id": 783,
@@ -6277,7 +6277,7 @@
     "en": "You unlocked the above functions by meeting the population achievement.",
     "ja": "住民数を達成したため以上の項目が解放されました",
     "zh": "居民人數已達標，因此解鎖以上項目",
-    "vi": "Bạn đã mở khóa các chức năng trên bằng cách đạt được thành tích về dân số."
+    "vi": "Các tính năng trên đã được mở khóa do đạt mốc dân số."
   },
   {
     "id": 785,
@@ -6365,7 +6365,7 @@
     "en": "Total Facility Lv.",
     "ja": "合計施設Lv.",
     "zh": "設施合計Lv.",
-    "vi": "Tổng cơ sở vật chất Lv."
+    "vi": "Tổng Cấp Công Trình"
   },
   {
     "id": 796,
@@ -7821,7 +7821,7 @@
     "en": "Predator Success Rate",
     "ja": "捕食成功確率",
     "zh": "捕食成功機率",
-    "vi": "Tỷ lệ thành công của động vật ăn thịt"
+    "vi": "Tỷ Lệ Thôn Phệ Thành Công"
   },
   {
     "id": 978,
@@ -8189,7 +8189,7 @@
     "en": "Current Predator Rating",
     "ja": "現在の捕食評価",
     "zh": "目前的捕食評價",
-    "vi": "Xếp hạng động vật ăn thịt hiện tại"
+    "vi": "Đánh Giá Thôn Phệ Hiện Tại"
   },
   {
     "id": 1024,
@@ -8557,7 +8557,7 @@
     "en": "Facility Effect",
     "ja": "施設効果",
     "zh": "設施效果",
-    "vi": "Hiệu ứng cơ sở"
+    "vi": "Hiệu Ứng Công Trình"
   },
   {
     "id": 1070,
@@ -8821,7 +8821,7 @@
     "en": "Generated Item Limit Notice",
     "ja": "施設生産アイテム上限通知",
     "zh": "設施生產道具上限通知",
-    "vi": "Thông báo giới hạn mục được tạo"
+    "vi": "Thông Báo Đạt Giới Hạn Sản Xuất Công Trình"
   },
   {
     "id": 1103,
@@ -9613,7 +9613,7 @@
     "en": "Predator Unlocked",
     "ja": "捕食バトル解放",
     "zh": "解鎖捕食戰",
-    "vi": "Đã mở khóa động vật ăn thịt"
+    "vi": "Mở Khóa Trận Đấu Thôn Phệ"
   },
   {
     "id": 1202,
@@ -10245,7 +10245,7 @@
     "en": "Facility Compatibility",
     "ja": "施設適性",
     "zh": "設施適性",
-    "vi": "Khả năng tương thích của cơ sở"
+    "vi": "Độ Thích Ứng Công Trình"
   },
   {
     "id": 1281,
@@ -10253,7 +10253,7 @@
     "en": "Compatible Facility 1",
     "ja": "適性施設1",
     "zh": "適合設施1",
-    "vi": "Cơ sở tương thích 1"
+    "vi": "Công Trình Tương Thích 1"
   },
   {
     "id": 1282,
@@ -10261,7 +10261,7 @@
     "en": "Compatible Facility 2",
     "ja": "適性施設2",
     "zh": "適合設施2",
-    "vi": "Cơ sở tương thích 2"
+    "vi": "Công Trình Tương Thích 2"
   },
   {
     "id": 1283,
@@ -10293,7 +10293,7 @@
     "en": "Facility Type",
     "ja": "施設の種別",
     "zh": "設施類別",
-    "vi": "Loại cơ sở"
+    "vi": "Loại Công Trình"
   },
   {
     "id": 1287,
@@ -10301,7 +10301,7 @@
     "en": "Gold Coin Production Facilities",
     "ja": "金貨生成施設",
     "zh": "金幣生成設施",
-    "vi": "Cơ sở sản xuất tiền vàng"
+    "vi": "Công Trình Sản Xuất Tiền Vàng"
   },
   {
     "id": 1288,
@@ -10309,7 +10309,7 @@
     "en": "Food Production Facilities",
     "ja": "食料生産施設",
     "zh": "糧食生產設施",
-    "vi": "Cơ sở sản xuất thực phẩm"
+    "vi": "Công Trình Sản Xuất Lương Thực"
   },
   {
     "id": 1289,
@@ -11061,7 +11061,7 @@
     "en": "Level Up Facility",
     "ja": "施設Lvアップ",
     "zh": "設施升級",
-    "vi": "Tăng cấp cơ sở"
+    "vi": "Nâng Cấp Công Trình"
   },
   {
     "id": 1383,
@@ -11229,7 +11229,7 @@
     "en": "The following enhancement was activated by consuming remaining magicules.",
     "ja": "残存魔素を捕食し、以下の強化効果が発動しました。",
     "zh": "捕食殘存魔素，已發動以下強化效果。",
-    "vi": "Sự nâng cao sau đây được kích hoạt bằng cách tiêu thụ những phép thuật còn lại."
+    "vi": "Hiệu quả cường hóa sau đã được kích hoạt nhờ thôn phệ lượng ma tố còn lại."
   },
   {
     "id": 1404,
@@ -11237,7 +11237,7 @@
     "en": "The following enhancement was activated by consuming lesser spirits.",
     "ja": "下級精霊を捕食し、以下の強化効果が発動しました。",
     "zh": "捕食下級精靈，已發動以下強化效果。",
-    "vi": "Cải tiến sau đây được kích hoạt bằng cách tiêu thụ ít tinh linh hơn."
+    "vi": "Hiệu quả cường hóa sau đã được kích hoạt nhờ thôn phệ tinh linh cấp thấp."
   },
   {
     "id": 1405,
@@ -11749,7 +11749,7 @@
     "en": "Tempest Blaster",
     "ja": "Tempest Blaster",
     "zh": "Tempest Blaster",
-    "vi": "Blaster bão tố"
+    "vi": "Phong Bạo Oanh Kích (Tempest Blaster)"
   },
   {
     "id": 1469,
@@ -11981,7 +11981,7 @@
     "en": "Bonus Reward",
     "ja": "ボーナス報酬",
     "zh": "獎勵報酬",
-    "vi": "Bonus Phần thưởng"
+    "vi": "Phần Thưởng Thêm"
   },
   {
     "id": 1498,
@@ -12053,7 +12053,7 @@
     "en": "First Rank Milestone Reward",
     "ja": "初回ランク達成報酬",
     "zh": "首次階級達成報酬",
-    "vi": "First Rank Milestone Phần thưởng"
+    "vi": "Phần Thưởng Cột Mốc Đạt Hạng Lần Đầu"
   },
   {
     "id": 1507,
@@ -12877,7 +12877,7 @@
     "en": "Equipment Enhancement Statues",
     "ja": "装備強化像",
     "zh": "裝備強化雕像",
-    "vi": "Trang bị Enhancement Statues"
+    "vi": "Tượng Cường Hóa Trang Bị"
   },
   {
     "id": 1610,
@@ -12981,7 +12981,7 @@
     "en": "Confirm Aid Request",
     "ja": "救援要請確認",
     "zh": "確認請求支援",
-    "vi": "Xác nhận Aid Request"
+    "vi": "Xác Nhận Yêu Cầu Viện Trợ"
   },
   {
     "id": 1623,
@@ -13893,7 +13893,7 @@
     "en": "Next rank:",
     "ja": "昇格まで",
     "zh": "至升級為止",
-    "vi": "Tiếp rank:"
+    "vi": "Đến hạng tiếp theo:"
   },
   {
     "id": 1737,
@@ -13981,7 +13981,7 @@
     "en": "Reward Privilege",
     "ja": "報酬権利",
     "zh": "報酬權利",
-    "vi": "Phần thưởng Privilege"
+    "vi": "Quyền Nhận Phần Thưởng"
   },
   {
     "id": 1748,
@@ -14053,7 +14053,7 @@
     "en": "Ranking Results Announcement",
     "ja": "ランキング結果発表",
     "zh": "排行榜結果發表",
-    "vi": "Bảng xếp hạng Results Announcement"
+    "vi": "Công Bố Kết Quả Xếp Hạng"
   },
   {
     "id": 1757,
@@ -14069,7 +14069,7 @@
     "en": "Scheduled Ranking Battles",
     "ja": "ランキング戦開催予定",
     "zh": "預定舉行排名戰",
-    "vi": "Scheduled Bảng xếp hạng Battles"
+    "vi": "Lịch Trình Trận Đua Bảng Xếp Hạng"
   },
   {
     "id": 1759,
@@ -14093,7 +14093,7 @@
     "en": "<size=80%>-</size>  Touch Screen  <size=80%>-</size>",
     "ja": "<size=80%>─</size>  Touch Screen  <size=80%>─</size>",
     "zh": "<size=80%>-</size>  Touch Screen  <size=80%>-</size>",
-    "vi": "<size=80%>-</size> Touch Screen <size=80%>-</size>"
+    "vi": "<size=80%>-</size>  Chạm Vào Màn Hình  <size=80%>-</size>"
   },
   {
     "id": 1762,
@@ -14109,7 +14109,7 @@
     "en": "Ranking Battle Best Rank",
     "ja": "ランキング戦最高順位",
     "zh": "排名戰最高排名",
-    "vi": "Trận Đua Bảng Xếp Hạng Best Rank"
+    "vi": "Hạng Cao Nhất Trận Đua Bảng Xếp Hạng"
   },
   {
     "id": 1764,
@@ -14221,7 +14221,7 @@
     "en": "Battles Completed Reward",
     "ja": "戦闘回数報酬",
     "zh": "戰鬥次數報酬",
-    "vi": "Battles Completed Phần thưởng"
+    "vi": "Phần Thưởng Số Lần Chiến Đấu"
   },
   {
     "id": 1778,
@@ -14237,7 +14237,7 @@
     "en": "Until Next Rank Reward:",
     "ja": "次の順位報酬まで",
     "zh": "離下一個排名報酬還有",
-    "vi": "Until Tiếp Rank Phần thưởng:"
+    "vi": "Đến phần thưởng hạng tiếp theo:"
   },
   {
     "id": 1780,
@@ -14253,7 +14253,7 @@
     "en": "Acquired Rewards: Seasonal",
     "ja": "獲得報酬：シーズン",
     "zh": "獲得報酬：賽季",
-    "vi": "Phần Thưởng Nhận Được: Seasonal"
+    "vi": "Phần Thưởng Nhận Được: Mùa Giải"
   },
   {
     "id": 1782,
@@ -14261,7 +14261,7 @@
     "en": "Acquired Rewards: Weekly (Ranking)",
     "ja": "獲得報酬：週間（ランク）",
     "zh": "獲得報酬：週（級）",
-    "vi": "Phần Thưởng Nhận Được: Weekly (Bảng xếp hạng)"
+    "vi": "Phần Thưởng Nhận Được: Hàng Tuần (Xếp Hạng)"
   },
   {
     "id": 1783,
@@ -14269,7 +14269,7 @@
     "en": "Acquired Rewards: Weekly (Defense)",
     "ja": "獲得報酬：週間（防衛）",
     "zh": "獲得報酬：週（防衛）",
-    "vi": "Phần Thưởng Nhận Được: Weekly (Defense)"
+    "vi": "Phần Thưởng Nhận Được: Hàng Tuần (Phòng Thủ)"
   },
   {
     "id": 1784,
@@ -14277,7 +14277,7 @@
     "en": "Acquired Rewards: First Clear",
     "ja": "獲得報酬：初回",
     "zh": "獲得報酬：首次",
-    "vi": "Phần Thưởng Nhận Được: First Clear"
+    "vi": "Phần Thưởng Nhận Được: Vượt Lần Đầu"
   },
   {
     "id": 1785,
@@ -14301,7 +14301,7 @@
     "en": "Valor Trait Details",
     "ja": "英傑特性詳細",
     "zh": "英傑特性詳情",
-    "vi": "Valor Trait Chi tiết"
+    "vi": "Chi Tiết Đặc Tính Anh Kiệt"
   },
   {
     "id": 1788,
@@ -14493,7 +14493,7 @@
     "en": "Diplomacy Level Achievement Reward",
     "ja": "国交Lv.達成報酬",
     "zh": "國交Lv.達標報酬",
-    "vi": "Diplomacy Level Achievement Phần thưởng"
+    "vi": "Phần Thưởng Đạt Cấp Ngoại Giao"
   },
   {
     "id": 1812,
@@ -14597,7 +14597,7 @@
     "en": "Awaken Evolution",
     "ja": "覚醒進化",
     "zh": "覺醒進化",
-    "vi": "Awaken Tiến hóa"
+    "vi": "Tiến Hóa Thức Tỉnh"
   },
   {
     "id": 1825,
@@ -14621,7 +14621,7 @@
     "en": "Confirm Unleash",
     "ja": "覚醒進化確認",
     "zh": "覺醒進化確認",
-    "vi": "Xác nhận Unleash"
+    "vi": "Xác Nhận Tiến Hóa Thức Tỉnh"
   },
   {
     "id": 1828,
@@ -14733,7 +14733,7 @@
     "en": "Confirm Enhancement",
     "ja": "強化確認",
     "zh": "強化確認",
-    "vi": "Xác nhận Enhancement"
+    "vi": "Xác Nhận Cường Hóa"
   },
   {
     "id": 1842,
@@ -14909,7 +14909,7 @@
     "en": "Previous Ranking Battle",
     "ja": "前回ランキング戦",
     "zh": "上次排名戰",
-    "vi": "Previous Trận Đua Bảng Xếp Hạng"
+    "vi": "Trận Đua Bảng Xếp Hạng Kỳ Trước"
   },
   {
     "id": 1864,
@@ -15005,7 +15005,7 @@
     "en": "Confirm Trade Cancelation",
     "ja": "貿易中止確認",
     "zh": "貿易中斷確認",
-    "vi": "Xác nhận Trade Cancelation"
+    "vi": "Xác Nhận Hủy Giao Thương"
   },
   {
     "id": 1876,
@@ -15029,7 +15029,7 @@
     "en": "Cancel Foreign Trade?",
     "ja": "貿易を中断しますか？",
     "zh": "確定要中斷貿易嗎？",
-    "vi": "Hủy Foreign Trade?"
+    "vi": "Bạn có muốn dừng giao thương không?"
   },
   {
     "id": 1879,
@@ -15117,7 +15117,7 @@
     "en": "Confirm Continued Trade",
     "ja": "貿易再実行確認",
     "zh": "貿易再次執行確認",
-    "vi": "Xác nhận Continued Trade"
+    "vi": "Xác Nhận Tiếp Tục Giao Thương"
   },
   {
     "id": 1890,
@@ -15253,7 +15253,7 @@
     "en": "Confirm Additional Trade",
     "ja": "貿易追加確認",
     "zh": "貿易追加確認",
-    "vi": "Xác nhận Additional Trade"
+    "vi": "Xác Nhận Bổ Sung Giao Thương"
   },
   {
     "id": 1907,
@@ -15589,7 +15589,7 @@
     "en": "Acquired Rewards: Final Rank",
     "ja": "獲得報酬：最終順位",
     "zh": "獲得報酬：最終排名",
-    "vi": "Phần Thưởng Nhận Được: Final Rank"
+    "vi": "Phần Thưởng Nhận Được: Hạng Chung Cuộc"
   },
   {
     "id": 1949,
@@ -17533,7 +17533,7 @@
     "en": "ATV",
     "ja": "客単価",
     "zh": "客單價",
-    "vi": "ATV"
+    "vi": "Doanh Thu / Khách"
   },
   {
     "id": 2192,
@@ -17933,7 +17933,7 @@
     "en": "Reward\nList",
     "ja": "報酬\n一覧",
     "zh": "報酬\n一覽",
-    "vi": "Phần thưởng\nList"
+    "vi": "Danh Sách\nPhần Thưởng"
   },
   {
     "id": 2242,
@@ -17981,7 +17981,7 @@
     "en": "Attendee Ranking",
     "ja": "来場者数ランキング",
     "zh": "來場人數排行榜",
-    "vi": "Attendee Bảng xếp hạng"
+    "vi": "Bảng Xếp Hạng Khách Tham Quan"
   },
   {
     "id": 2248,
@@ -18117,7 +18117,7 @@
     "en": "Record Attendees Rewards",
     "ja": "最高来場者報酬",
     "zh": "最高來場人數報酬",
-    "vi": "Record Attendees Phần thưởng"
+    "vi": "Phần Thưởng Kỷ Lục Khách Tham Quan"
   },
   {
     "id": 2265,
@@ -18125,7 +18125,7 @@
     "en": "Total Attendees Rewards",
     "ja": "累計来場者報酬",
     "zh": "累計來場人數報酬",
-    "vi": "Total Attendees Phần thưởng"
+    "vi": "Phần Thưởng Tổng Số Khách Tham Quan"
   },
   {
     "id": 2266,
@@ -18669,7 +18669,7 @@
     "en": "Next Record Visitors Reward",
     "ja": "次の最高来客者報酬",
     "zh": "下個最高來客報酬",
-    "vi": "Tiếp Record Visitors Phần thưởng"
+    "vi": "Phần Thưởng Kỷ Lục Khách Kế Tiếp"
   },
   {
     "id": 2334,
@@ -19565,7 +19565,7 @@
     "en": "Trophy Display Settings",
     "ja": "トロフィー公開設定",
     "zh": "獎盃公開設定",
-    "vi": "Trophy Display Cài đặt"
+    "vi": "Cài Đặt Hiển Thị Cúp"
   },
   {
     "id": 2446,
@@ -19613,7 +19613,7 @@
     "en": "Progress Milestone Reward",
     "ja": "発展度達成報酬",
     "zh": "發展度達標報酬",
-    "vi": "Progress Milestone Phần thưởng"
+    "vi": "Phần Thưởng Đạt Mốc Phát Triển"
   },
   {
     "id": 2452,
@@ -19621,7 +19621,7 @@
     "en": "Next Milestone Reward",
     "ja": "次の達成報酬",
     "zh": "下一個達標報酬",
-    "vi": "Tiếp Milestone Phần thưởng"
+    "vi": "Phần Thưởng Cột Mốc Tiếp Theo"
   },
   {
     "id": 2453,
@@ -21469,7 +21469,7 @@
     "en": "Get <color=#f7e416>Great Rewards</color>",
     "ja": "<color=#f7e416>豪華報酬</color><size=38>を</size>GET",
     "zh": "<size=38>獲得</size><color=#f7e416>豪華報酬</color>",
-    "vi": "Get <color=#f7e416>Great Phần thưởng</color>"
+    "vi": "Nhận <color=#f7e416>Phần Thưởng Hậu Hĩnh</color>"
   },
   {
     "id": 2684,
@@ -21717,7 +21717,7 @@
     "en": "Core Tempering Pre-Awakening",
     "ja": "魔玉錬成未覚醒",
     "zh": "魔玉鍊成未覺醒",
-    "vi": "Core Tempering Pre-Thức tỉnh"
+    "vi": "Luyện Ma Ngọc Chưa Thức Tỉnh"
   },
   {
     "id": 2715,
@@ -21877,7 +21877,7 @@
     "en": "Cancel Invite",
     "ja": "招待取り消し",
     "zh": "取消邀請",
-    "vi": "Hủy Invite"
+    "vi": "Hủy Lời Mời"
   },
   {
     "id": 2735,
@@ -22349,7 +22349,7 @@
     "en": "Selected Magic Type:",
     "ja": "選択魔法タイプ：",
     "zh": "選擇魔法類型：",
-    "vi": "Selected Ma pháp Type:"
+    "vi": "Loại Ma Pháp Đã Chọn:"
   },
   {
     "id": 2794,
@@ -22741,7 +22741,7 @@
     "en": "Equipment Rank",
     "ja": "装備ランク",
     "zh": "裝備階級",
-    "vi": "Trang bị Rank"
+    "vi": "Cấp Bậc Trang Bị"
   },
   {
     "id": 2843,
@@ -22773,7 +22773,7 @@
     "en": "Sticker Details",
     "ja": "スタンプ詳細",
     "zh": "貼圖詳情",
-    "vi": "Sticker Chi tiết"
+    "vi": "Chi Tiết Nhãn Dán"
   },
   {
     "id": 2847,
@@ -22925,7 +22925,7 @@
     "en": "Confirm Exchange",
     "ja": "換金確認",
     "zh": "變賣確認",
-    "vi": "Xác nhận Exchange"
+    "vi": "Xác Nhận Đổi Thưởng"
   },
   {
     "id": 2866,
@@ -23173,7 +23173,7 @@
     "en": "Rewards Pending Receipt",
     "ja": "未受取報酬",
     "zh": "未領取報酬",
-    "vi": "Phần thưởng Pending Receipt"
+    "vi": "Phần Thưởng Chưa Nhận"
   },
   {
     "id": 2897,
@@ -23229,7 +23229,7 @@
     "en": "Purchase / Use History",
     "ja": "購入 / 消費履歴",
     "zh": "購買 / 消耗履歷",
-    "vi": "Purchase / Sử dụng History"
+    "vi": "Lịch Sử Mua / Tiêu Dùng"
   },
   {
     "id": 2904,
@@ -23237,7 +23237,7 @@
     "en": "<b>",
     "ja": "有償",
     "zh": "<b>",
-    "vi": "<b>"
+    "vi": "Có Phí"
   },
   {
     "id": 2905,
@@ -23245,7 +23245,7 @@
     "en": "<b>",
     "ja": "無償",
     "zh": "<b>",
-    "vi": "<b>"
+    "vi": "Miễn Phí"
   },
   {
     "id": 2906,
@@ -23293,7 +23293,7 @@
     "en": "Product Details",
     "ja": "商品内容",
     "zh": "商品內容",
-    "vi": "Product Chi tiết"
+    "vi": "Chi Tiết Sản Phẩm"
   },
   {
     "id": 2912,
@@ -24293,7 +24293,7 @@
     "en": "Magic Unleashed Countdown",
     "ja": "魔力解放まで",
     "zh": "距離魔力解放為止",
-    "vi": "Ma pháp Unleashed Countdown"
+    "vi": "Đếm Ngược Mở Khóa Ma Lực"
   },
   {
     "id": 3037,
@@ -24669,7 +24669,7 @@
     "en": "Terms Here.",
     "ja": "Terms Here.",
     "zh": "Terms Here.",
-    "vi": "Terms Here."
+    "vi": "Điều Khoản Tại Đây."
   },
   {
     "id": 3084,
@@ -25101,7 +25101,7 @@
     "en": "Monthly Pass Details",
     "ja": "月額パス詳細",
     "zh": "月費卡詳情",
-    "vi": "Monthly Pass Chi tiết"
+    "vi": "Chi Tiết Thẻ Tháng"
   },
   {
     "id": 3138,
@@ -25781,7 +25781,7 @@
     "en": "Get <color=#ce0000>Great Rewards</color>!",
     "ja": "<color=#ce0000>豪華報酬</color>を\nGET!!",
     "zh": "獲得\n<color=#ce0000>豪華報酬</color>！！",
-    "vi": "Get <color=#ce0000>Great Phần thưởng</color>!"
+    "vi": "Nhận <color=#ce0000>Phần Thưởng Hậu Hĩnh</color>!"
   },
   {
     "id": 3223,
@@ -26221,7 +26221,7 @@
     "en": "<color=#F2EC4E>One Time Only</color> Reward",
     "ja": "<color=#F2EC4E>1回限定</color>報酬",
     "zh": "<color=#F2EC4E>限定1次</color>報酬",
-    "vi": "<color=#F2EC4E>One Time Only</color> Phần thưởng"
+    "vi": "Phần Thưởng <color=#F2EC4E>Giới Hạn 1 Lần</color>"
   },
   {
     "id": 3278,
@@ -26229,7 +26229,7 @@
     "en": "<size=38>Get</size> <color=#F2EC4E>Great Rewards</color>",
     "ja": "<color=#F2EC4E>豪華報酬</color><size=38>を</size>GET",
     "zh": "<size=38>獲得</size><color=#F2EC4E>豪華報酬</color>",
-    "vi": "<size=38>Get</size> <color=#F2EC4E>Great Phần thưởng</color>"
+    "vi": "<size=38>Nhận</size> <color=#F2EC4E>Phần Thưởng Hậu Hĩnh</color>"
   },
   {
     "id": 3279,
@@ -26445,7 +26445,7 @@
     "en": "Unlock Settings",
     "ja": "解放設定切り替え",
     "zh": "解鎖設定切換",
-    "vi": "Unlock Cài đặt"
+    "vi": "Cài Đặt Mở Khóa"
   },
   {
     "id": 3306,
@@ -26549,7 +26549,7 @@
     "en": "Heartprint Confirm Unlock",
     "ja": "写心解放確認",
     "zh": "寫心解鎖確認",
-    "vi": "Heartprint Xác nhận Unlock"
+    "vi": "Xác Nhận Mở Khóa Tả Tâm"
   },
   {
     "id": 3319,
@@ -26565,7 +26565,7 @@
     "en": "Heartprint Details",
     "ja": "写心詳細",
     "zh": "寫心詳情",
-    "vi": "Heartprint Chi tiết"
+    "vi": "Chi Tiết Tả Tâm"
   },
   {
     "id": 3321,
@@ -26733,7 +26733,7 @@
     "en": "Heartprint Skill Settings",
     "ja": "スキル写心設定",
     "zh": "技能寫心設定",
-    "vi": "Heartprint Skill Cài đặt"
+    "vi": "Cài Đặt Kỹ Năng Tả Tâm"
   },
   {
     "id": 3342,
@@ -26749,7 +26749,7 @@
     "en": "Confirm Heartprint Enhancement",
     "ja": "写心強化確認",
     "zh": "寫心強化確認",
-    "vi": "Xác nhận Heartprint Enhancement"
+    "vi": "Xác Nhận Cường Hóa Tả Tâm"
   },
   {
     "id": 3344,
@@ -27405,7 +27405,7 @@
     "en": "Confirm Shortening",
     "ja": "短縮確認",
     "zh": "縮短確認",
-    "vi": "Xác nhận Shortening"
+    "vi": "Xác Nhận Rút Ngắn"
   },
   {
     "id": 3426,
@@ -27765,7 +27765,7 @@
     "en": "Delete Local Data",
     "ja": "ローカルデータ削除",
     "zh": "刪除本機檔案",
-    "vi": "Xóa Local Data"
+    "vi": "Xóa Dữ Liệu Cục Bộ"
   },
   {
     "id": 3471,
@@ -27885,7 +27885,7 @@
     "en": "Ultimate 7★ Evolution",
     "ja": "究極★7進化",
     "zh": "究極★7進化",
-    "vi": "Ultimate 7★ Tiến hóa"
+    "vi": "Tiến Hóa Cực Hạn ★7"
   },
   {
     "id": 3486,
@@ -28717,7 +28717,7 @@
     "en": "Caretaker's Crate Monthly Pass Total Rewards",
     "ja": "千両箱月額パス累計加入特典",
     "zh": "千兩箱月費卡累計加入特典",
-    "vi": "Caretaker's Crate Monthly Pass Total Phần thưởng"
+    "vi": "Tổng Phần Thưởng Thẻ Tháng Ân Huệ Minh Chủ"
   },
   {
     "id": 3590,
@@ -28725,7 +28725,7 @@
     "en": "Tempest's Treasure Monthly Pass Total Rewards",
     "ja": "万両箱月額パス累計加入特典",
     "zh": "萬兩箱月費卡累計加入特典",
-    "vi": "Tempest's Treasure Monthly Pass Total Phần thưởng"
+    "vi": "Tổng Phần Thưởng Thẻ Tháng Ân Huệ Ma Quốc"
   },
   {
     "id": 3591,
@@ -28733,7 +28733,7 @@
     "en": "Tome of Wisdom Monthly Pass Total Rewards",
     "ja": "智慧之書月額パス累計加入特典",
     "zh": "智慧之書月費卡累計加入特典",
-    "vi": "Tome of Wisdom Monthly Pass Total Phần thưởng"
+    "vi": "Tổng Phần Thưởng Thẻ Tháng Khám Phá Trí Tuệ"
   },
   {
     "id": 3592,
@@ -28741,7 +28741,7 @@
     "en": "Total Subscription Rewards",
     "ja": "累計加入特典",
     "zh": "累計加入特典",
-    "vi": "Total Subscription Phần thưởng"
+    "vi": "Tổng Phần Thưởng Đăng Ký Định Kỳ"
   },
   {
     "id": 3593,
@@ -28797,7 +28797,7 @@
     "en": "SLIME IM",
     "ja": "まおりゅう",
     "zh": "轉生史萊姆　魔王與龍",
-    "vi": "SLIME IM"
+    "vi": "Tensura Ma Vương & Long Tộc"
   },
   {
     "id": 3600,
@@ -29037,7 +29037,7 @@
     "en": "Weekly Reward: Week {0}/{1}",
     "ja": "週間報酬　week {0}/{1}",
     "zh": "週報酬 week {0}/{1}",
-    "vi": "Weekly Phần thưởng: Week {0}/{1}"
+    "vi": "Phần Thưởng Hàng Tuần: Tuần {0}/{1}"
   },
   {
     "id": 3630,
@@ -29101,7 +29101,7 @@
     "en": "Up {0}%",
     "ja": "{0}％UP!",
     "zh": "{0}％UP!",
-    "vi": "Up {0}%"
+    "vi": "Tăng {0}%!"
   },
   {
     "id": 3638,
@@ -29109,7 +29109,7 @@
     "en": "No. {0}",
     "ja": "{0}人目",
     "zh": "第{0}人",
-    "vi": "No. {0}"
+    "vi": "Lần Thứ {0}"
   },
   {
     "id": 3639,
@@ -29453,7 +29453,7 @@
     "en": "{0:D2}",
     "ja": "{0:D2}話",
     "zh": "{0:D2}話",
-    "vi": "{0:D2}"
+    "vi": "Tập {0:D2}"
   },
   {
     "id": 3682,
@@ -29461,7 +29461,7 @@
     "en": "Common: <color=#13e600>{0:#,0}</color>",
     "ja": "コモン：<color=#13e600>{0:#,0}</color>",
     "zh": "普通：<color=#13e600>{0:#,0}</color>",
-    "vi": "Common: <color=#13e600>{0:#,0}</color>"
+    "vi": "Thường: <color=#13e600>{0:#,0}</color>"
   },
   {
     "id": 3683,
@@ -29533,7 +29533,7 @@
     "en": "Recruit x{0} More",
     "ja": "もう{0}回スカウト",
     "zh": "再招募{0}次",
-    "vi": "Chiêu mộ x{0} More"
+    "vi": "Chiêu Mộ Thêm x{0}"
   },
   {
     "id": 3692,
@@ -29653,7 +29653,7 @@
     "en": "Chancellor ID : {0}",
     "ja": "盟主ID : {0}",
     "zh": "盟主ID : {0}",
-    "vi": "Chancellor ID: {0}"
+    "vi": "ID Minh Chủ: {0}"
   },
   {
     "id": 3707,
@@ -29829,7 +29829,7 @@
     "en": "Up {0}%",
     "ja": "{0}%UP!",
     "zh": "{0}％UP!",
-    "vi": "Up {0}%"
+    "vi": "Tăng {0}%!"
   },
   {
     "id": 3729,
@@ -29837,7 +29837,7 @@
     "en": "{0}<size=90%>F</size>",
     "ja": "{0}<size=90%>F</size>",
     "zh": "{0}<size=90%>F</size>",
-    "vi": "{0}<size=90%>F</size>"
+    "vi": "Tầng {0}"
   },
   {
     "id": 3730,
@@ -30229,7 +30229,7 @@
     "en": "Consumption Skill Cost: {0}",
     "ja": "消費スキルコスト：{0}",
     "zh": "消耗技能Cost：{0}",
-    "vi": "Tiêu Hao Cost Kỹ Năng: {0}"
+    "vi": "Chi Phí Tiêu Hao Kỹ Năng: {0}"
   },
   {
     "id": 3779,
@@ -30261,7 +30261,7 @@
     "en": "Predator Battles Left: x<color=#ED4B39>{0}</color>",
     "ja": "捕食バトル：残り<color=#ED4B39>{0}</color>回",
     "zh": "捕食戰：剩餘<color=#ED4B39>{0}</color>次",
-    "vi": "Kẻ Săn Mồi Battles Left: x<color=#ED4B39>{0}</color>"
+    "vi": "Trận Đấu Thôn Phệ Còn Lại: x<color=#ED4B39>{0}</color>"
   },
   {
     "id": 3783,
@@ -30525,7 +30525,7 @@
     "en": "No. {0}",
     "ja": "{0}回目",
     "zh": "第{0}次",
-    "vi": "No. {0}"
+    "vi": "Lần Thứ {0}"
   },
   {
     "id": 3816,
@@ -30533,7 +30533,7 @@
     "en": "No. {0} or later",
     "ja": "{0}回目以降",
     "zh": "第{0}次以後",
-    "vi": "Số {0} trở đi"
+    "vi": "Từ Lần Thứ {0} Trở Đi"
   },
   {
     "id": 3817,
